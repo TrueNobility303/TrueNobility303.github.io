@@ -23,11 +23,11 @@ Note that <sup>1</sup> means co-first-authors.
 
 <h2> Selected Publications </h2>
 
-<sup>1</sup> indicates co-first-authors; <sup>🎓</sup> indicates undergraduate students primarily supervised by me.
+<sup>1</sup> indicates co-first-authors; <sup>#</sup> indicates undergraduate students primarily supervised by me.
 
 <ol>
 <font size="3">  
-<li><p> <b>Lesi Chen<sup>1</sup></b>, Yaohua Ma<sup>1🎓</sup>, and Jingzhao Zhang,
+<li><p> <b>Lesi Chen<sup>1</sup></b>, Yaohua Ma<sup>1#</sup>, and Jingzhao Zhang,
  <i> Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles </i>, Journal of Machine Learning Research (JMLR), 2025.
   <a href="https://arxiv.org/abs/2306.14853">[paper]  </a>
  </p></li>
@@ -38,7 +38,7 @@ Note that <sup>1</sup> means co-first-authors.
 <li><p> <b>Lesi Chen</b> and Luo Luo, <i> Near-Optimal Algorithms for Making the Gradient Small in Stochastic Minimax Optimization</i>, Journal of Machine Learning Research (JMLR), 2024.
   <a href="https://arxiv.org/abs/2208.05925">[paper]</a>
 </p></li> 
-<li><p> Huaqing Zhang<sup>1🎓</sup>, <b>Lesi Chen<sup>1</sup></b>, Jing Xu, and Jingzhao Zhang, <i>
+<li><p> Huaqing Zhang<sup>1#</sup>, <b>Lesi Chen<sup>1</sup></b>, Jing Xu, and Jingzhao Zhang, <i>
  Functionally Constrained Algorithm Solves Convex Simple Bilevel Problems</i>, in Conference on Neural Information Processing Systems (NeurIPS), 2024.
  <a href="https://arxiv.org/abs/2409.06530">[paper]  </a>
  </p></li>
