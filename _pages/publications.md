@@ -56,14 +56,14 @@ Yuxing Liu, <b>Lesi Chen</b>,  and Luo Luo. <a href="https://openreview.net/pdf?
 <!--  <li><p> An Efficient Stochastic Algorithm for Decentralized Nonconvex-Strongly-Concave Minimax Optimization. <br />
 <b>Lesi Chen</b>, Haishan Ye, and Luo Luo. <a href="https://arxiv.org/abs/2212.02387">[AISTATS 2024] </a>
 </p> </li> -->
-<!--  <li><p> <b>Lesi Chen</b>, Jing Xu, and Luo Luo, <i> Faster Gradient-Free Algorithms for Nonsmooth Nonconvex Stochastic Optimization</i>,
+<li><p> <b>Lesi Chen</b>, Jing Xu, and Luo Luo, <i> Faster Gradient-Free Algorithms for Nonsmooth Nonconvex Stochastic Optimization</i>,
  in International Conference on Machine Learning (ICML), 2023. 
   <a href="https://arxiv.org/abs/2301.06428"> [paper] </a>
  </p> </li>
 <li><p>  <b>Lesi Chen</b>, Boyuan Yao, and Luo Luo, <i> Faster Stochastic Algorithms for Minimax Optimization under Polyak-Łojasiewicz Condition</i>, 
  in Conference on Neural Information Processing Systems (NeurIPS), 2022.
   <a href="https://arxiv.org/abs/2307.15868"> [paper] </a>
- </p> </li>  -->
+ </p> </li>
 </font>
 </ol>
 
