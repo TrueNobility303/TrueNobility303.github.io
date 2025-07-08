@@ -5,9 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-My full publications list is on [Google Scholar](https://scholar.google.com/citations?user=ynGzhugAAAAJ&hl=en&oi=ao). (Due to the possibility of making minor updates to the published version on arXiv, please refer to the following links on my homepage for the latest version of my publications if you are interested in them)
-
-Note that <sup>1</sup> means co-first-authors.
+My full publications list is on [Google Scholar](https://scholar.google.com/citations?user=ynGzhugAAAAJ&hl=en&oi=ao).
 
  <h2> Recent Preprints </h2>
 
