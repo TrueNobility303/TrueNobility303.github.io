@@ -13,7 +13,7 @@ My full publications list is on [Google Scholar](https://scholar.google.com/cita
 <font size="3">
 <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
 <i> Computationally Faster Newton Methods by Lazy Evaluations </i>,
- arXiv preprint, 2025 (extension of ICLR 2025)
+ arXiv preprint, 2025 (extended from ICLR 2025)
  <a href="https://arxiv.org/abs/2501.17488">[paper]  </a> 
 </p></li>
 </font>
