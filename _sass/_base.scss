@@ -15,10 +15,23 @@ body {
   font-family: $global-font-family;
   line-height: 1.5;
 
+   
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
+}
+
+.custom-ol {
+    list-style-type: none;
+    padding: 0;
+}
+.custom-ol li {
+    counter-increment: item;
+    margin: 5px 0;
+}
+.custom-ol li::before {
+    content: "[" counter(item) "] ";
 }
 
 h1, h2, h3, h4, h5, h6 {
