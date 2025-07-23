@@ -325,3 +325,24 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+.custom-ol {
+  li {
+    margin-bottom: 0.5em; /* Maintain bottom margin for list items */
+
+    /* Add brackets around list items */
+    &::before {
+      content: "["; /* Add left square bracket */
+    }
+
+    &::after {
+      content: "]"; /* Add right square bracket */
+    }
+  }
+
+  /* Maintain top margin for nested lists */
+  ul,
+  ol {
+    margin-top: 0.5em;
+  }
+}
