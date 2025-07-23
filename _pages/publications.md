@@ -7,6 +7,7 @@ author_profile: true
     
 My full publications list is on [Google Scholar](https://scholar.google.com/citations?user=ynGzhugAAAAJ&hl=en&oi=ao).
 
+[1] 
  <h2> Recent Preprints </h2>
 
 <ul>
@@ -23,7 +24,7 @@ My full publications list is on [Google Scholar](https://scholar.google.com/cita
 
 <sup>1</sup> indicates co-first-authors; <sup>#</sup> indicates undergraduate students primarily supervised by me.
     
-<ol class="custom-ol">
+<ol>
 <font size="3">  
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Yaohua Ma<sup>1#</sup>, and Jingzhao Zhang,
  <i> Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles </i>, Journal of Machine Learning Research (JMLR), 1-56, 2025.
