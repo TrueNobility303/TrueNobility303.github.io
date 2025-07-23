@@ -330,13 +330,14 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   li {
     margin-bottom: 0.5em; /* Maintain bottom margin for list items */
 
-    /* Add brackets around list items */
-    &::before {
-      content: "["; /* Add left square bracket */
-    }
+    /* Add brackets around the list item number */
+    counter-increment: item; /* Increment the counter for ordered list */
+    position: relative;
 
-    &::after {
-      content: "]"; /* Add right square bracket */
+    &::before {
+      content: "[" counter(item) "] "; /* Add brackets around the counter */
+      position: absolute;
+      left: -2em; /* Adjust position as needed */
     }
   }
 
@@ -346,3 +347,4 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
     margin-top: 0.5em;
   }
 }
+
