@@ -327,24 +327,27 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 }
 
 .custom-ol {
-  li {
-    margin-bottom: 0.5em; /* Maintain bottom margin for list items */
+            list-style: none; /* Remove default list styles */
+            counter-reset: item; /* Reset counter for list items */
+            padding-left: 0; /* Remove default padding */
+        }
 
-    /* Add brackets around the list item number */
-    counter-increment: item; /* Increment the counter for ordered list */
-    position: relative;
+        .custom-ol li {
+            margin-bottom: 0.5em; /* Maintain bottom margin for list items */
+            counter-increment: item; /* Increment the counter for ordered list */
+            position: relative;
+            padding-left: 2em; /* Add padding to prevent overlap */
+        }
 
-    &::before {
-      content: "[" counter(item) "] "; /* Add brackets around the counter */
-      position: absolute;
-      left: -2em; /* Adjust position as needed */
-    }
-  }
+        .custom-ol li::before {
+            content: "[" counter(item) "]"; /* Add brackets around the counter */
+            position: absolute;
+            left: 0; /* Positioning the counter */
+            display: inline; /* Ensure it displays inline with the text */
+        }
 
-  /* Maintain top margin for nested lists */
-  ul,
-  ol {
-    margin-top: 0.5em;
-  }
-}
+        .custom-ol ul,
+        .custom-ol ol {
+            margin-top: 0.5em; /* Maintain top margin for nested lists */
+        }
 
