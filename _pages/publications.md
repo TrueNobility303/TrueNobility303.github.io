@@ -7,7 +7,7 @@ author_profile: true
 
 My research primarily focuses on optimization theory (especially inspired by theoretical computer science), and I am interested in any long-standing unresolved problems in optimization theory.
 
-My representative work includes a series of studies on the complexity of bilevel optimization [1,7] and higher-order acceleration in minimax optimization [2].
+My representative work includes a series of studies on the complexity of bilevel optimization [1,7], higher-order acceleration in minimax optimization [2], and other work listed below.
 
 <h2> Selected Publications </h2>
 
