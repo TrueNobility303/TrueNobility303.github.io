@@ -11,6 +11,20 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<style>
+        .custom-ol {
+            list-style-type: none; /* 取消默认有序列表样式 */
+            padding: 0; /* 取消内边距 */
+        }
+        .custom-ol li {
+            counter-increment: item; /* 增加计数器 */
+            margin: 5px 0; /* 添加一些间距 */
+        }
+        .custom-ol li::before {
+            content: "[" counter(item) "] "; /* 添加方括号和计数 */
+        }
+    </style>
+
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
