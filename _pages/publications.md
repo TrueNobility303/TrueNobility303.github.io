@@ -7,19 +7,6 @@ author_profile: true
     
 My full publications list is on [Google Scholar](https://scholar.google.com/citations?user=ynGzhugAAAAJ&hl=en&oi=ao).
 
-[1] 
- <h2> Recent Preprints </h2>
-
-<ul>
-<font size="3">
-<li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
-<i> Computationally Faster Newton Methods by Lazy Evaluations </i>,
- arXiv preprint, 2025 (extended from ICLR 2025)
- <a href="https://arxiv.org/abs/2501.17488">[paper]  </a> 
-</p></li>
-</font>
-</ul>
-
 <h2> Selected Publications </h2>
 
 <sup>1</sup> indicates co-first-authors; <sup>#</sup> indicates undergraduate students primarily supervised by me.
@@ -32,6 +19,11 @@ My full publications list is on [Google Scholar](https://scholar.google.com/cita
  </p></li>
 <li><p> <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ Second-Order Oracle Complexity</i>, in Conference on Learning Theory (COLT), 2025.  <a href="http://arxiv.org/abs/2506.08362">[paper]</a> <br>  🏆 <b>Best Student Paper Award </b>
 </p></li> 
+<li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
+<i> Computationally Faster Newton Methods by Lazy Evaluations </i>,
+ arXiv preprint, 2025 (extended from ICLR 2025)
+ <a href="https://arxiv.org/abs/2501.17488">[paper]  </a> 
+</p></li>
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu<sup>1</sup>, and Jingzhao Zhang,  <i> Second-Order Min-Max Optimization with Lazy Hessians</i>, in International Conference on  Learning Representations (ICLR), 2025 <b>(Oral)</b>  <a href="https://arxiv.org/pdf/2410.09568">[paper]</a> <a href="https://github.com/TrueNobility303/LEN">[code] </a> 
 </p></li>
 <li><p> <b>Lesi Chen</b> and Luo Luo, <i> Near-Optimal Algorithms for Making the Gradient Small in Stochastic Minimax Optimization</i>, Journal of Machine Learning Research (JMLR), 1-44, 2024.
