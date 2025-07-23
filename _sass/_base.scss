@@ -177,6 +177,14 @@ hr {
 ul li,
 ol li {
   margin-bottom: 0.5em;
+
+  &::before {
+    content: "["; /* Add left square bracket */
+  }
+
+  &::after {
+    content: "]"; /* Add right square bracket */
+  }
 }
 
 li ul,
@@ -297,22 +305,9 @@ nav {
     padding: 0;
   }
 
-  li {
-    list-style: none;
-    position: relative; /* 为伪元素提供相对定位 */
-
-    &::before {
-      content: "["; /* 添加左中括号 */
-      position: absolute;
-      left: -1em; /* 调整位置 */
-    }
-
-    &::after {
-      content: "]"; /* 添加右中括号 */
-      position: absolute;
-      right: -1em; /* 调整位置 */
-    }
-  }
+   li {
+   list-style: none;
+   }
    
   a {
     text-decoration: none;
