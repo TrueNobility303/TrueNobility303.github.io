@@ -9,8 +9,6 @@ My research primarily focuses on optimization theory (especially inspired by the
 
 My representative work includes a series of studies on the complexity of bilevel optimization [1,7] and higher-order acceleration in minimax optimization [2].
 
-My full publications list is on [Google Scholar](https://scholar.google.com/citations?user=ynGzhugAAAAJ&hl=en&oi=ao).
-
 <h2> Selected Publications </h2>
 
 <sup>1</sup> indicates co-first-authors; <sup>#</sup> indicates undergraduate students primarily supervised by me.
@@ -62,5 +60,6 @@ Yuxing Liu, <b>Lesi Chen</b>,  and Luo Luo. <a href="https://openreview.net/pdf?
 </font>
 </ol>
 
+See [Google Scholar](https://scholar.google.com/citations?user=ynGzhugAAAAJ&hl=en&oi=ao) for a complete list.
   
   
