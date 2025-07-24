@@ -23,7 +23,7 @@ My representative work includes a series of studies on the complexity of bilevel
 </p></li> 
 <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
 <i> Computationally Faster Newton Methods by Lazy Evaluations </i>,
- arXiv preprint, 2025 (extended from ICLR 2025)
+ arXiv preprint, 2025 (extended from ICLR 2025 below)
  <a href="https://arxiv.org/abs/2501.17488">[paper]  </a> 
 </p></li>
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu<sup>1</sup>, and Jingzhao Zhang,  <i> Second-Order Min-Max Optimization with Lazy Hessians</i>, in International Conference on  Learning Representations (ICLR), 2025 <b>(Oral)</b>  <a href="https://arxiv.org/pdf/2410.09568">[paper]</a> <a href="https://github.com/TrueNobility303/LEN">[code] </a> 
