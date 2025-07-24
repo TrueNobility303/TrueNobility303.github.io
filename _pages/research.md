@@ -7,7 +7,7 @@ author_profile: true
 
 My research primarily focuses on optimization theory (especially inspired by theoretical computer science), and I am interested in any long-standing unresolved problems in optimization theory.
 
-My representative work includes a series of studies on the complexity of bilevel optimization [1,7], high-order acceleration in minimax optimization [2], and other work listed below.
+My representative work includes a series of studies on the complexity of bilevel optimization [2,7], high-order acceleration in minimax optimization [1], and other work listed below.
 
 <h2> Selected Publications </h2>
 
@@ -15,12 +15,12 @@ My representative work includes a series of studies on the complexity of bilevel
     
 <ol class="custom-ol">
 <font size="3">  
+<li><p> <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ Second-Order Oracle Complexity</i>, in Conference on Learning Theory (COLT), 2025.  <a href="http://arxiv.org/abs/2506.08362">[paper]</a> <br>  🏆 <b>Best Student Paper Award </b>
+</p></li> 
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Yaohua Ma<sup>1#</sup>, and Jingzhao Zhang,
  <i> Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles </i>, Journal of Machine Learning Research (JMLR), 1-56, 2025.
   <a href="https://arxiv.org/abs/2306.14853">[paper]</a>  <a href="https://github.com/TrueNobility303/F2BA">[code]</a> 
  </p></li>
-<li><p> <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ Second-Order Oracle Complexity</i>, in Conference on Learning Theory (COLT), 2025.  <a href="http://arxiv.org/abs/2506.08362">[paper]</a> <br>  🏆 <b>Best Student Paper Award </b>
-</p></li> 
 <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
 <i> Computationally Faster Newton Methods by Lazy Evaluations </i>,
  arXiv preprint, 2025 (extended from ICLR 2025 below)
