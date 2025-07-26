@@ -11,7 +11,7 @@ My representative  work ⭐  includes a series of studies on the complexity of b
 
 <h2> Selected Publications </h2>
 
-<sup>1</sup> indicates co-first-authors; <sup>#</sup> indicates undergraduate students primarily supervised by me
+<sup>1</sup> indicates co-first-authors; <sup>#</sup> indicates undergraduate students primarily supervised by me.
     
 <ol class="custom-ol">
 <font size="3">  
