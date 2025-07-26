@@ -44,7 +44,7 @@ Yuxing Liu, <b>Lesi Chen</b>,  and Luo Luo. <a href="https://openreview.net/pdf?
 </p> </li> -->
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Jing Xu<sup>1</sup>, and Jingzhao Zhang, <i> On Finding Small Hyper-Gradients in Bilevel Optimization: Hardness Results and Improved Analysis</i>,
  in Conference on Learning Theory (COLT), 2024.
-  <a href="https://arxiv.org/abs/2301.00712">[paper] </a> ⭐
+<a href="https://arxiv.org/abs/2301.00712">[paper]</a> ⭐
 </p></li>
 <!--  <li><p> An Efficient Stochastic Algorithm for Decentralized Nonconvex-Strongly-Concave Minimax Optimization. <br />
 <b>Lesi Chen</b>, Haishan Ye, and Luo Luo. <a href="https://arxiv.org/abs/2212.02387">[AISTATS 2024] </a>
