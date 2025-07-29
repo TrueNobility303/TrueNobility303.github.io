@@ -7,7 +7,7 @@ author_profile: true
 
 My research primarily focuses on optimization theory (especially inspired by theoretical computer science), and I am interested in any long-standing unresolved problems in optimization theory.
 
-My representative  work ⭐  includes a series of studies on the complexity of bilevel optimization [2,7], high-order acceleration in minimax optimization [1], and other work listed below.
+My representative  work ⭐  includes a series of studies on the complexity of bilevel optimization [2,7], high-order acceleration in min(-max) optimization [1,3], and other work listed below.
 
 <h2> Selected Publications </h2>
 
@@ -24,7 +24,7 @@ My representative  work ⭐  includes a series of studies on the complexity of b
 <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
 <i> Computationally Faster Newton Methods by Lazy Evaluations </i>,
  arXiv preprint, 2025 (extended from ICLR 2025 below)
- <a href="https://arxiv.org/abs/2501.17488">[paper]  </a> 
+ <a href="https://arxiv.org/abs/2501.17488">[paper]  </a> ⭐
 </p></li>
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu<sup>1</sup>, and Jingzhao Zhang,  <i> Second-Order Min-Max Optimization with Lazy Hessians</i>, in International Conference on  Learning Representations (ICLR), 2025 <b>(Oral)</b>  <a href="https://arxiv.org/pdf/2410.09568">[paper]</a> <a href="https://github.com/TrueNobility303/LEN">[code] </a> 
 </p></li>
