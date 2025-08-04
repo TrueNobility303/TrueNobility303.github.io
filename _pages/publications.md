@@ -5,9 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-My research primarily focuses on optimization theory (especially inspired by theoretical computer science), and I am interested in any long-standing unresolved problems in optimization theory.
-
-My representative  work ⭐  includes a series of studies on the complexity of bilevel optimization [2,7], high-order acceleration in min(-max) optimization [1,3], and other work listed below.
+I have a broad interest in optimization theory (especially inspired by theoretical computer science). Currently, I am primarily focusing on the complexity of multi-agent optimization (MAOPT). In my representative work ⭐, I have solved many fundamental problems in MAOPT, including the complexity of first-order bilevel optimization [2,7] and high-order min(-max) optimization [1,3].
 
 <h2> Selected Publications </h2>
 
