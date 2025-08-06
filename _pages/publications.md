@@ -12,7 +12,7 @@ I have a broad interest in optimization theory (especially inspired by theoretic
 <sup>1</sup> indicates co-first-authors; <sup>#</sup> indicates undergraduate students primarily supervised by me.
     
 <ol class="custom-ol">
-<font size="3">  
+<font size="2">  
 <li><p> <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ Second-Order Oracle Complexity</i>, in Conference on Learning Theory. <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> ⭐ <br>  🏆 <b>Best Student Paper Award 
 </b>
 </p></li> 
