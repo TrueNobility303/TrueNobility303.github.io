@@ -50,7 +50,7 @@ in International Conference on Artificial Intelligence and Statistics. <a href="
 </p> </li>
 <li><p> Luo Luo, Yunyan Bai, <b>Lesi Chen</b>, Yuxing Liu, Haishan Ye,
 <i> On the Complexity of Decentralized Smooth Nonconvex Finite-Sum Optimization </i>, arXiv preprint.
- <a href="https://arxiv.org/abs/2210.13931">[arXiv 2022]</a>
+ <a href="https://arxiv.org/abs/2210.13931">[arXiv 2022]</a> ⭐
 </p> </li>
 <li><p> <b>Lesi Chen</b>, Jing Xu, and Luo Luo, <i> Faster Gradient-Free Algorithms for Nonsmooth Nonconvex Stochastic Optimization</i>,
  in International Conference on Machine Learning. 
