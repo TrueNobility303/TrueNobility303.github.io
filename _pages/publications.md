@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-I have a broad interest in optimization theory (especially inspired by theoretical computer science). Currently, I am primarily focusing on the complexity of multi-agent optimization (MAOPT). In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in MAOPT, including the complexity of first-order bilevel optimization [2,7], high-order min(-max) optimization [1,3], and decentralized optimization.
+I have a broad interest in optimization theory (especially inspired by theoretical computer science). Currently, I am primarily focusing on the complexity of multi-agent optimization (MAOPT). In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in MAOPT, including the complexity of first-order bilevel optimization [2,7], high-order min(-max) optimization [1,3], and decentralized optimization [9].
 
 <h2> Selected Publications </h2>
 
@@ -23,7 +23,7 @@ I have a broad interest in optimization theory (especially inspired by theoretic
 <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
 <i> Computationally Faster Newton Methods by Lazy Evaluations </i>,
  arXiv preprint (extended from ICLR 2025 below).
- <a href="https://arxiv.org/abs/2501.17488">[arXiv 2025]  </a> ⭐
+ <a href="https://arxiv.org/abs/2501.17488">[arXiv 2025]</a> ⭐
 </p></li>
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu<sup>1</sup>, and Jingzhao Zhang,  <i> Second-Order Min-Max Optimization with Lazy Hessians</i>, in International Conference on  Learning Representations. <b>(Oral) top 1.8% </b>  <a href="https://arxiv.org/pdf/2410.09568">[ICLR 2025]</a> 
 </p></li>
@@ -32,7 +32,7 @@ I have a broad interest in optimization theory (especially inspired by theoretic
 </p></li> 
 <li><p> Huaqing Zhang<sup>1#</sup>, <b>Lesi Chen<sup>1</sup></b>, Jing Xu, and Jingzhao Zhang, <i>
  Functionally Constrained Algorithm Solves Convex Simple Bilevel Problems</i>, in Conference on Neural Information Processing Systems. <br>
- <a href="https://arxiv.org/abs/2409.06530">[NeurIPS 2024]  </a>
+ <a href="https://arxiv.org/abs/2409.06530">[NeurIPS 2024]</a>
  </p></li>
 <!--  <li><p>
 Decentralized Convex Finite-Sum Optimization with Better Dependence on Condition Numbers. <br />
@@ -50,15 +50,15 @@ in International Conference on Artificial Intelligence and Statistics. <a href="
 </p> </li>
 <li><p> Luo Luo, Yunyan Bai, <b>Lesi Chen</b>, Yuxing Liu, Haishan Ye,
 <i> On the Complexity of Decentralized Smooth Nonconvex Finite-Sum Optimization </i>, arXiv preprint.
- <a href="https://arxiv.org/abs/2210.13931">[arXiv 2022] </a>
+ <a href="https://arxiv.org/abs/2210.13931">[arXiv 2022]</a>
 </p> </li>
 <li><p> <b>Lesi Chen</b>, Jing Xu, and Luo Luo, <i> Faster Gradient-Free Algorithms for Nonsmooth Nonconvex Stochastic Optimization</i>,
  in International Conference on Machine Learning. 
-  <a href="https://arxiv.org/abs/2301.06428"> [ICML 2023] </a>
+  <a href="https://arxiv.org/abs/2301.06428"> [ICML 2023]</a>
  </p> </li>
 <li><p>  <b>Lesi Chen</b>, Boyuan Yao, and Luo Luo, <i> Faster Stochastic Algorithms for Minimax Optimization under Polyak-Łojasiewicz Condition</i>, 
  in Conference on Neural Information Processing Systems.
-  <a href="https://arxiv.org/abs/2307.15868"> [NeurIPS 2022] </a>
+  <a href="https://arxiv.org/abs/2307.15868"> [NeurIPS 2022]</a>
  </p> </li>
 </font>
 </ol>
