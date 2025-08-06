@@ -17,7 +17,7 @@ I have a broad interest in optimization theory (especially inspired by theoretic
 </b>
 </p></li> 
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Yaohua Ma<sup>1#</sup>, and Jingzhao Zhang,
- <i> Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles </i>, Journal of Machine Learning Research (JMLR), 1-56. 
+ <i> Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles </i>, Journal of Machine Learning Research (JMLR), 1-56. <br>
   <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a>  <a href="https://github.com/TrueNobility303/F2BA">[code]</a> ⭐
  </p></li>
 <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
@@ -31,7 +31,7 @@ I have a broad interest in optimization theory (especially inspired by theoretic
   <a href="https://arxiv.org/abs/2208.05925">[JMLR 2024]</a>
 </p></li> 
 <li><p> Huaqing Zhang<sup>1#</sup>, <b>Lesi Chen<sup>1</sup></b>, Jing Xu, and Jingzhao Zhang, <i>
- Functionally Constrained Algorithm Solves Convex Simple Bilevel Problems</i>, in Conference on Neural Information Processing Systems.
+ Functionally Constrained Algorithm Solves Convex Simple Bilevel Problems</i>, in Conference on Neural Information Processing Systems. <br>
  <a href="https://arxiv.org/abs/2409.06530">[NeurIPS 2024]  </a>
  </p></li>
 <!--  <li><p>
