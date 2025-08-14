@@ -18,7 +18,7 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
 </p></li> 
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Yaohua Ma<sup>1#</sup>, and Jingzhao Zhang,
  <i> Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles </i>, Journal of Machine Learning Research (JMLR), 1-56. <br>
-  <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a>  <a href="https://github.com/TrueNobility303/F2BA">[code]</a> ⭐
+  <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> ⭐
  </p></li>
 <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
 <i> Computationally Faster Newton Methods by Lazy Evaluations </i>,
