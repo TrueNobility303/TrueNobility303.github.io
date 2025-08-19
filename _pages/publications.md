@@ -34,11 +34,6 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
  Functionally Constrained Algorithm Solves Convex Simple Bilevel Problems</i>, in Conference on Neural Information Processing Systems. <br>
  <a href="https://arxiv.org/abs/2409.06530">[NeurIPS 2024]</a>
  </p></li>
- <li><p>
-Yuxing Liu, <b>Lesi Chen</b>,  and Luo Luo, <i>
-Decentralized Convex Finite-Sum Optimization with Better Dependence on Condition Numbers</i>,
- <a href="https://openreview.net/pdf?id=LLdeUPOUXk">[ICML 2024] </a> 
-</p></li>
 <!-- 
 <li><p> Communication Efficient Distributed Newton Method with Fast Convergence Rates. <br />
  Chengchang Liu, <b>Lesi Chen</b>, Luo Luo, and John C.S. Lui. <a href="https://arxiv.org/abs/2305.17945">[SIGKDD 2023] </a>
@@ -46,6 +41,11 @@ Decentralized Convex Finite-Sum Optimization with Better Dependence on Condition
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Jing Xu<sup>1</sup>, and Jingzhao Zhang, <i> On Finding Small Hyper-Gradients in Bilevel Optimization: Hardness Results and Improved Analysis</i>,
  in Conference on Learning Theory. 
 <a href="https://arxiv.org/abs/2301.00712">[COLT 2024]</a> ⭐
+</p></li>
+ <li><p>
+Yuxing Liu, <b>Lesi Chen</b>,  and Luo Luo, <i>
+Decentralized Convex Finite-Sum Optimization with Better Dependence on Condition Numbers</i>,
+ <a href="https://openreview.net/pdf?id=LLdeUPOUXk">[ICML 2024] </a> 
 </p></li>
 <li><p> <b>Lesi Chen</b>, Haishan Ye, and Luo Luo, <i>An Efficient Stochastic Algorithm for Decentralized Nonconvex-Strongly-Concave Minimax Optimization</i>,
 in International Conference on Artificial Intelligence and Statistics. <a href="https://arxiv.org/abs/2212.02387">[AISTATS 2024] </a>
