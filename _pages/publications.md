@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-I have a broad interest in modern optimization theory (inspired by theoretical computer science). Currently, I am primarily focusing on the complexity of multi-agent optimization (MAOPT). In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in MAOPT, including the complexity of first-order bilevel optimization [2,7], high-order min(-max) optimization [1,3], and decentralized optimization [9].
+I have a broad interest in modern optimization theory (inspired by theoretical computer science). Currently, I am primarily focusing on the complexity of multi-agent optimization (MAOPT). In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in MAOPT, including the complexity of first-order bilevel optimization [2,7], high-order min(-max) optimization [1,3], and decentralized optimization [10].
 
 <h2> Selected Publications </h2>
 
@@ -34,10 +34,12 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
  Functionally Constrained Algorithm Solves Convex Simple Bilevel Problems</i>, in Conference on Neural Information Processing Systems. <br>
  <a href="https://arxiv.org/abs/2409.06530">[NeurIPS 2024]</a>
  </p></li>
-<!--  <li><p>
-Decentralized Convex Finite-Sum Optimization with Better Dependence on Condition Numbers. <br />
-Yuxing Liu, <b>Lesi Chen</b>,  and Luo Luo. <a href="https://openreview.net/pdf?id=LLdeUPOUXk">[ICML 2024] </a> 
+ <li><p>
+Yuxing Liu, <b>Lesi Chen</b>,  and Luo Luo, <i>
+Decentralized Convex Finite-Sum Optimization with Better Dependence on Condition Numbers</i>,
+ <a href="https://openreview.net/pdf?id=LLdeUPOUXk">[ICML 2024] </a> 
 </p></li>
+<!-- 
 <li><p> Communication Efficient Distributed Newton Method with Fast Convergence Rates. <br />
  Chengchang Liu, <b>Lesi Chen</b>, Luo Luo, and John C.S. Lui. <a href="https://arxiv.org/abs/2305.17945">[SIGKDD 2023] </a>
 </p> </li> -->
