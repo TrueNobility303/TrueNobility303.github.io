@@ -44,7 +44,7 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
 </p></li>
  <li><p>
 Yuxing Liu, <b>Lesi Chen</b>,  and Luo Luo, <i>
-Decentralized Convex Finite-Sum Optimization with Better Dependence on Condition Numbers</i>,
+Decentralized Convex Finite-Sum Optimization with Better Dependence on Condition Numbers</i>.
  <a href="https://openreview.net/pdf?id=LLdeUPOUXk">[ICML 2024] </a> 
 </p></li>
 <li><p> <b>Lesi Chen</b>, Haishan Ye, and Luo Luo, <i>An Efficient Stochastic Algorithm for Decentralized Nonconvex-Strongly-Concave Minimax Optimization</i>,
