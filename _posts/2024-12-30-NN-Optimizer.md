@@ -37,15 +37,15 @@ $$
 \end{align*}
 $$
 
-对所有的 $t = 1,\cdots,T$ 进行求和，可以得到遗憾界的上界为
+令 $D = \sup_t \Vert x_t - x^\ast \Vert$。或者使用投影梯度法可以使得所有迭代都位于一个紧集上，我们同样可以记紧集的大小为 $D$. 对所有的 $t = 1,\cdots,T$ 进行求和，可以得到遗憾界的上界为
 
 $$
 \begin{align*}
-R_T \le \eta^{-1} \Vert x_0 -x^\ast \Vert^2 ({\rm tr}(S_0) +1) + \eta \sum_{t=1}^T \langle g_t ,S_t^{-1} g_t \rangle.
+R_T \le \eta^{-1} D^2 ({\rm tr}(S_T) +1) + \eta \sum_{t=1}^T \langle g_t ,S_t^{-1} g_t \rangle.
 \end{align*}
 $$
 
-那么我们知道对于每一个时间点 $t$ 来说最优的preconditioner就是使得上式的右端项最小的解，若 $S_t$ 取得无穷大则右端项应当趋近于0，但是无穷大的 $S$ 会导致数值计算问题，我们限制 $S$ 有限得约束下进行求解：
+从上式启发，我们限制 $S$ 有限得约束下进行求解：
 
 $$
 \begin{align*}
