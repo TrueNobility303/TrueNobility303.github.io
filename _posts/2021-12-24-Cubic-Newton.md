@@ -51,11 +51,13 @@ $$
 
 $$
 \begin{align}
-\Vert \nabla f(y) - \nabla f(x)  - \nabla^2 f(x) (y-x) \Vert  &= \Vert \int_0^1\nabla^2 f(x+t(y-x))(y-x) dt  - \nabla^2 f(x) (y-x) \Vert \\
+&\quad \Vert \nabla f(y) - \nabla f(x)  - \nabla^2 f(x) (y-x) \Vert  \\
+&= \Vert \int_0^1\nabla^2 f(x+t(y-x))(y-x) dt  - \nabla^2 f(x) (y-x) \Vert \\
 & \le \Vert \int_0^1 (\nabla^2 f(x+t(y-x) - \nabla^2f(x)) dt\Vert \Vert y-x \Vert \\
 &\le L  \int_0^1 t dt\Vert y-x \Vert^2  \\
 &= \frac{L}{2} \Vert y - x \Vert^2  \\
-\vert f(y) - f(x) - \langle \nabla f(x) , y-x \rangle - \frac{1}{2} \langle \nabla^2 f(x) (y-x) , y-x \rangle &= \vert \int_0^1 \langle\nabla^2(x +t(y-x)) (1-t) (y-x)dt,y-x \rangle  - \frac{1}{2} \langle \nabla^2 f(x) (y-x) , y-x \rangle \\
+&\quad \vert f(y) - f(x) - \langle \nabla f(x) , y-x \rangle - \frac{1}{2} \langle \nabla^2 f(x) (y-x) , y-x \rangle \\
+&= \vert \int_0^1 \langle\nabla^2(x +t(y-x)) (1-t) (y-x)dt,y-x \rangle  - \frac{1}{2} \langle \nabla^2 f(x) (y-x) , y-x \rangle \\
 &= \vert \int_0^1 \langle\nabla^2(x +t(y-x)) (1-t) (y-x)dt - \frac{1}{2}\nabla^2 f(x) (y-x),y-x \rangle \vert \\
 &\le \vert \int_0^1 \nabla^2(x +t(y-x)) (1-t) dt - \frac{1}{2}\nabla^2 f(x) \vert \Vert y-x \Vert^2 \\
 &\le L \int_0^1 t(1-t) dt \Vert y-x \Vert^3 \\
@@ -377,6 +379,7 @@ $$
 
 
 从最终的式子可以看见算法的收敛率为 $O(\frac{1}{k^2})$ , 这也与FISTA等算法的收敛率相匹配，作为一个二阶优化算法，达到一阶优化算法的最优收敛率也并不奇怪。
+
 
 
 
