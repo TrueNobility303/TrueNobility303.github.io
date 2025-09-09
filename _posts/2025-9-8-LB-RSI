@@ -1,0 +1,166 @@
+---
+title: 'RSI下的非凸随机优化复杂度下界'
+toc: true
+excerpt_separator: <!--more-->
+tags: 		
+  - 优化
+  - 随机优化
+  - 非凸优化
+  - 复杂度下界
+---
+
+Paper Reading: New Lower Bounds for Stochastic Non-Convex Optimization through Divergence Decomposition [COLT'25].
+
+<!--more-->
+
+考虑经典的优化问题：
+
+$$
+\begin{align*}
+\min_{x \in R^d} f(x).
+\end{align*}
+$$
+
+假设算法每次只能通过随机映射 $\phi$ 得到一个方差为 $\sigma^2$ 的随机梯度，满足
+
+$$
+\begin{align*}
+\mathbb{E}[\phi(x)] =  \nabla f(x) \quad {\rm and} \quad \mathbb{E} \Vert \phi(x) - \nabla f(x) \Vert^2 \le \sigma^2.
+\end{align*}
+$$
+
+我们希望知道算法需要多少次随机梯度访问才能找到问题的一个 $\epsilon$-近似解 $\hat x$ 满足 $f(\hat x) -  f^\ast \le \epsilon$, 其中 $f^\ast = \min_{x \in R^d} f(x)$. 标准的课本假设考虑 $L$-光滑，$\mu$-强凸函数，定义为满足如下两个不等式：第一，光滑性：
+
+$$
+\begin{align*}
+\Vert \nabla f(x) - \nabla f(y) \Vert \le L \Vert x -y \Vert, \quad \forall x,y \in R^d.
+\end{align*}
+$$
+
+第二，强凸性：
+
+$$
+\begin{align*}
+\langle \nabla f(x) - \nabla f(y), x - y \rangle \ge \mu \Vert x - y \Vert^2, \quad \forall x,y \in R^d.
+\end{align*}
+$$
+
+当 $\mu=0$ 时候为凸函数。对于上述函数类，可以证明经典的随机梯度下降 SGD 算法的复杂度分别为 $\mathcal{O}(L \epsilon^{-1} + \sigma^2 \epsilon^{-2})$ 以及 $\mathcal{O}(L/\mu + \sigma^2 / (\mu \epsilon))$. 上述结果也可以被证明是最优的，其对应下界的证明我们在 [随机一阶优化的复杂度下界](https://truenobility303.github.io/LB-SFO/) 中已经介绍，对应的下界构造取 $d=1$ 都已经是紧的。
+
+本篇论文考虑满足更放松的条件下的复杂度。具体来说，考虑满足如下的 Restricted-Secant-Inequaility(RSI) 条件的非凸函数:
+
+$$
+\begin{align*}
+\langle \nabla f(x), x- x_p \rangle \ge \mu \Vert x - x_p \Vert^2, \quad \forall x \in R^d,
+\end{align*}
+$$
+
+其中 $x_p$ 表示点 $x$ 到最优点的集合 $\arg \min_{x \in R^d} f(x)$ 的投影。可以注意到RSI不等式严格推广了强凸函数，是一个更广的函数类。首先第一个问题是，SGD在该类函数上的收敛率是怎样的。经过简单的推导可以发现，此时SGD的复杂度为 $O(\kappa \sigma^2 / (\mu \epsilon))$, 其中 $\kappa = L/ \mu$. 这说明了在没有强凸性的前提下，RSI条件下的非凸优化会有更慢的收敛率。
+
+本篇论文最主要的贡献在于给出了与上述结果完全匹配的下界。当然原论文考虑了多种相关的结构性非凸条件，包括 Quasar-Convexity (QC), Quadratic Growth (QG), Error Bound (EB) 等多种条件。但这里为了方便我只选讲了 RSI 条件下的证明。而其他条件下的结果都可以在完全相同的证明框架下取得。
+
+对于一个 $d$ 维优化问题，我们的下界总是考虑一个 $d_0 \le d$ 的函数列 $\{f_1,\cdots,f_m \}$，其中的每个函数由 $z_1,\cdots,z_m \in B_{d_0}(0, 5 \Delta)$ 决定。我们根据球体的packing数选择最大可能的 $m = \lceil (5/4)^{d_0} /2 \rceil$ 使得
+
+$$
+\begin{align*}
+B(z_i, 2\Delta) \cap B(z_i, 2 \Delta) = \emptyset, \quad \forall i \ne j.
+\end{align*}
+$$
+
+选择一个参数 $a \in (0,1)$, 我们定义
+
+$$
+\begin{align*}
+f_i(x)= 
+\begin{cases}
+\frac{L}{2} \Vert x - z_i \Vert^2, \quad & \Vert x - z_i \Vert \le \Delta, \\ - \frac{L}{2} \Vert x - z_i \Vert^2 + 2L \Delta \Vert x - z_i \Vert - L \Delta^2, & \Delta \le \Vert x - z_i \Vert \le (1+a)\Delta,\\ L \Delta^2 \frac{1+2a -a^2}{2} + \frac{\mu}{2}( \Vert x - z_i \Vert^2 -(1+a^2) \Delta^2), & \Vert x - z_i \Vert \ge (1+a) \Delta.
+\end{cases}
+\end{align*}
+$$
+
+选择 $\Delta \in (0,1)$ 可以发现函数梯度满足 $L$-光滑假设，下面我们验证RSI条件。我们计算
+
+$$
+\begin{align*}
+& \langle \nabla f_i(x), x-z_i \rangle - \mu \Vert x - z_i \Vert^2 \\
+=&
+\begin{cases}
+(L-\mu) \Vert x - z_i \Vert^2, & \Vert x - z_i \Vert \le \Delta, \\ - (L+\mu) \Vert x - z_i \Vert^2 + 2 L \Delta \Vert x - z_i \Vert, & \Delta \le \Vert x - z_i \Vert \le (1+a)\Delta, \\ 0, & \Vert x - z_i \Vert \ge (1+a) \Delta.
+\end{cases}
+\end{align*}
+$$
+
+通过计算可以发现右端项总是大于等于0.
+
+下面的证明非常有意思，本质上可以在看作模仿 [多臂老虎机的遗憾下界](https://truenobility303.github.io/MAB-LB/) 的证明。我们定义如下这个无信息的函数 $g$, 其满足
+
+$$
+\begin{align*}
+\nabla g(x) = \begin{cases} 0, &\Vert x \Vert \le 2 \Delta, \\ \mu x, & \Vert x \Vert \ge 2 \Delta.
+\end{cases}
+\end{align*}
+$$
+
+容易验证成立着如下的关系式
+
+$$
+\begin{align*}
+\Vert \nabla f_i(x) - \nabla g(x) \Vert \le \begin{cases} L \Delta, & x \in B(z_i, 2 \Delta), \\ 5 \mu \Delta, & x \notin B(z_i,2 \Delta).
+\end{cases}
+\end{align*}
+$$
+
+我们定义 $P_i$ 和 $Q$ 为所有 $T$ 次随机oracle的概率分布，$N_i$ 为算法访问 $x \in B(z_i, 2\Delta)$ 中的点的次数， $\mathbb{E}_i[\cdot]$ 以及 $\mathbb{E}[\cdot]$ 分别为关于分布 $P_i$ 以及 $Q$ 的期望。
+
+利用KL散度的链式法则、算法与oracle交互过程中的Markov性质、以及正态分布的KL散度的公式，我们可以得到
+
+$$
+\begin{align*}
+D(Q \Vert P_i) \le& \frac{d_0}{2\sigma^2} \mathbb{E}[N_i] \sup_{x \in B(z_i, 2\Delta)} \Vert \nabla g(x) - \nabla f_i(x) \Vert^2 \\& \quad + \frac{d_0}{2 \sigma^2} \mathbb{E}[T-N_i] \sup_{x \notin B(z_i, 2\Delta)} \Vert \nabla g(x) - \nabla f_i(x) \Vert^2 \\
+\le & \frac{d_0 L^2 \Delta^2}{2 \sigma^2} \mathbb{E}[N_i] + \frac{25 d_0 \mu^2 \Delta^2}{2 \sigma^2} T.
+\end{align*}
+$$
+
+对所有的 $i=1,\cdots,m$ 求和可以得到
+
+$$
+\begin{align*}
+\frac{1}{m} \sum_{i=1}^m D(Q \Vert P_i) \le \frac{d_0^2 \mu^2 \Delta^2}{2 \sigma^2} \left( \frac{\kappa^2}{m} + 25 \right) T.
+\end{align*}
+$$
+
+下面我们说明若上述KL散度总是很小的话，那么算法将不可能很快的找到一个近似最优解. 为了叙述方便面，我们定义 $\Xi_i$ 为算法输出 $\hat x \in B(z_i, 2\Delta)$ 发生的事件，此时算法输出了一个最优点附近的解。我们下面说，KL散度很小的时候，算法将有很大的概率对于均匀选择的 $i$ 不能正确触发事件 $\Xi_i$. 
+
+$$
+\begin{align*}
+\mathbb{E}_i [f_i(\hat x)] \ge & \mathbb{P}_i(\Xi_i) \inf_{x \in B(z_i, 2 \Delta)} f_i(x) + (1  -\mathbb{P}_i(\Xi_i)) \inf_{x \notin B(z_i, 2\Delta)} f_i(x) \\
+\ge & (1  -\mathbb{P}_i(\Xi_i)) \inf_{x \notin B(z_i, 2\Delta)} f_i(x) \\
+\ge& (1  -\mathbb{P}_i(\Xi_i)) \frac{L \Delta^2}{2}.
+\end{align*}
+$$
+
+根据Pinsker不等式，可以得到
+
+$$
+\begin{align*}
+\frac{1}{m} \sum_{i=1}^m \mathbb{P}_i (\Xi_i) \le \frac{1}{m} \sum_{i=1}^m \mathbb{Q}(\Xi_i) + \sqrt{\frac{1}{2m} \sum_{i=1}^m D(\mathbb{Q} \Vert \mathbb{P}_i)}
+\end{align*}
+$$
+
+注意到事件 $\Xi_i$ 并不相交，意味着 $\sum_{i=1}^m \mathbb{Q}(\Xi_i) \le 1$, 那么
+
+$$
+\begin{align*}
+\frac{1}{m} \sum_{i=1}^m
+\mathbb{E}_i [f_i(\hat x)] \ge \frac{L \Delta^2}{2} \left( 1 - \frac{1}{m} - \sqrt{\frac{d_0^2 \mu^2 \Delta^2}{2 \sigma^2} \left( \frac{\kappa^2}{m} + 25 \right) T} \right).
+\end{align*}
+$$
+
+在 $m = \lceil (5/4)^{d_0} /2 \rceil$ 以及 $d_0 = \lceil \log_{5/4} ( 4 \kappa^2) \rceil$ 的参数选择下，我们进一步选取最大可能的 $\Delta$, 最终可以得到复杂度下界为
+
+$$
+\begin{align*}
+\frac{1}{m} \sum_{i=1}^m
+\mathbb{E}_i [f_i(\hat x)] \ge \Omega \left(  \frac{L \sigma^2}{\log(\kappa) \mu^2 T} \right).
+\end{align*}
+$$
