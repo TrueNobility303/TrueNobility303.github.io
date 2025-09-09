@@ -9,7 +9,7 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
 
 <h2> Featured Publications </h2>
 
-<sup>1</sup> indicates co-first-authors; <sup>#</sup> indicates undergraduate students primarily supervised by me.
+<sup>1</sup>: co-first-authors; <sup>#</sup>: undergraduate students primarily supervised by me and Jingzhao.
     
 <ol class="custom-ol">
 <font size="3">  
