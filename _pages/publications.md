@@ -9,6 +9,10 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
 
 <h2> Featured Publications </h2>
 
+<img src="/images/research/Minimax.png" style="max-width: 70%; height: auto;">
+
+<h2> Research Highlights </h2>
+
 <sup>1</sup> indicates co-first-authors, <sup>#</sup> indicates undergraduates supervised by me and Jingzhao.
     
 <ol class="custom-ol">
