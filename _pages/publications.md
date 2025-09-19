@@ -9,7 +9,7 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
 
 <h2> Research Highlights </h2>
 
-<img src="/images/research/Minimax.png" style="max-width: 70%; height: auto;">
+<img src="/images/research/Minimax.png" style="max-width: 100%; height: auto;">
 
 <h2> Featured Publications </h2>
 
