@@ -13,9 +13,9 @@ I am now a third-year Ph.D. student at [Institute for Interdisciplinary Informat
 <h2> Selected Awards </h2>
 <ul>
 <font size="3">
-<li><p> National Scholarship (for PhD students), 2024-2025, Tsinghua University
+<li><p> National Scholarship (for PhD students), 2024-2025, Tsinghua University.
 </p> </li>
-<li><p> National Scholarship (for undergraduates), 2019-2020, Fudan Universiy
+<li><p> National Scholarship (for undergraduates), 2019-2020, Fudan Universiy.
 </p> </li>
 </font>
 </ul>
