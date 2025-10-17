@@ -12,7 +12,7 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
 
 <h2> Featured Publications </h2>
 
-<sup>1</sup> indicates co-first-authors, <sup>#</sup> indicates undergraduates supervised by me and Jingzhao.
+<sup>1</sup> indicates co-first-authors, underline names indicates undergraduates supervised by me and Jingzhao.
     
 <ol class="custom-ol">
 <font size="3">  
