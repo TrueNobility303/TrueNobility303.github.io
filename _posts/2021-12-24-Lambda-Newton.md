@@ -9,7 +9,7 @@ tags:
 
 
 
-论文阅读笔记 [Regularized Newton Method with Global $ O(\frac{1}{k^2}) $ Convergence](https://arxiv.org/abs/2112.02089)
+Paper Reading: Regularized Newton Method with Global $\mathcal{O}(1/k^2)$ Convergence.
 
 <!--more-->
 
@@ -203,6 +203,6 @@ $$
 值得注意的是，尽管上述的证明仅仅针对于所有元素都不满足平稳梯度的情况，但对于更好的情况，上述证明显然是成立的，只需要根据函数值序列的单调性，选取满足平稳梯度的一个子列进行证明即可，本质上并无区别。
 
 
+最终得到了算法在凸函数上具有收敛率为 $\mathcal{O}(1/k^2)$ , 优于梯度法的  $\mathcal{O}(1/k)$，且该算法形式非常简单，并不需要像Cubic Newton一样解一个三次正则方程得到的子问题，只需要根据迭代公式计算正则项 $\lambda_k$ 即可。
 
-最终得到了算法在凸函数上具有收敛率为 $O(\frac{1}{k^2})$ , 这是一个非常好的结果，且该算法形式非常简单，并不需要像Cubic Newton一样解一个三次正则方程得到的子问题，只需要根据迭代公式计算正则项 $\lambda_k$ 即可。
 
