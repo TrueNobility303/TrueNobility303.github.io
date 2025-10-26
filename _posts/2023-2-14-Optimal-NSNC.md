@@ -29,7 +29,7 @@ g_n &= \nabla g(x_{n-1} + s_n \Delta_n; \xi_t) \\
 $$
 
 
-其中 $s_n$ 从区间 $ [0,1] $ 之内均匀采样，首先观察到
+其中 $s_n$ 从区间 $[0,1]$ 之内均匀采样，首先观察到
 
 
 $$
@@ -100,6 +100,7 @@ $$
 
 
 令 $D T = \delta$ , 可以使得 $\Vert w_t^k - \bar w_t^k \Vert \le \delta$,  因此上面的算法可以在 $\mathcal{O}( \Delta G^2 \delta^{-1} \epsilon^{-3})$ 的时间内找到 $(\delta,\epsilon$)-稳定点.
+
 
 
 
