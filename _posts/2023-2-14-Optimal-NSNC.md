@@ -87,7 +87,7 @@ $$
 
 
 
-移项后并且代入online梯度下降算法的regret bound，可以得到
+移项后并且代入online梯度下降算法的regret bound，可以得到 ${\rm Reg}(u_1,\cdots,u_K) = \mathcal{O}(K DG \sqrt{T})$, 那么
 
 
 $$
@@ -97,6 +97,7 @@ $$
 $$
 
 
-令 $ D T = \delta$ , 可以使得 $ \Vert w_t^k - \bar w_t^k \Vert \le \delta$,  因此上面的算法可以在 $\mathcal{O}( G^2 \Delta\delta^{-1} \epsilon^{-3})$ 的时间内找到 $(\delta,\epsilon$) - 稳定点.
+令 $D T = \delta$ , 可以使得 $\Vert w_t^k - \bar w_t^k \Vert \le \delta$,  因此上面的算法可以在 $\mathcal{O}( G^2 \Delta\delta^{-1} \epsilon^{-3})$ 的时间内找到 $(\delta,\epsilon$) - 稳定点.
+
 
 
