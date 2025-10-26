@@ -13,9 +13,7 @@ Paper Reading: Optimal Stochastic Non-smooth Non-convex Optimization through Onl
 文章提出如下基于online learning的算法，可以达到nonsmooth nonconvex optimization问题的最优复杂度。
 
 
-
 ![image-20230215153359260](/images/posts/NSNC/image-20230215153359260.png)
-
 
 
 使用online 梯度下降算法作为子算法 $\mathcal{A}$, 并且每次向直径为 $D$ 的球内投影，可以得到如下的更新公式，
@@ -62,6 +60,13 @@ $$
 \end{align*}
 $$
 
+据此可以定义如下的 $K$-偏移遗憾界:
+
+$$
+\begin{align*}
+{\rm Reg}(u_1,\cdots,u_K) = \sum_{k=1}^K \sum_{n=(k-1)T+1}^{kT} \langle g_n, \Delta_n - u_k \rangle.
+\end{align*}
+$$
 
 那么有，
 
@@ -69,10 +74,10 @@ $$
 $$
 \begin{align*}
 F^* &\le F(x_0) + \sum_{n=1}^M \mathbb{E} \langle g_n, \Delta_n - u_n \rangle + \sum_{n=1}^M \mathbb{E} \langle g_n,u_n \rangle \\
- &\le  F(x_0) + {\rm Regret}( u_k) + \sum_{n=1}^M \mathbb{E} \langle g_n,u_n \rangle \\
- &= F(x_0) + {\rm Regret}( u_k) + \sum_{k=1}^K  \mathbb{E} \left \langle \sum_{t=1}^T \nabla g(w_t^k;\xi_t^k),u_k \right\rangle \\
- &\le F(x_0) + {\rm Regret}( u_k) + \sum_{k=1}^K  \mathbb{E} \left \langle \sum_{t=1}^T \nabla g(w_t^k),u_k \right\rangle + D G K \sqrt{T} \\
- &= F(x_0) + {\rm Regret}( u_k) - D \sum_{k=1}^K  \mathbb{E} \left \Vert \sum_{t=1}^T \nabla g(w_t^k) \right\Vert + D G K \sqrt{T}.
+ &\le  F(x_0) + {\rm Reg}(u_1,\cdots,u_K) + \sum_{n=1}^M \mathbb{E} \langle g_n,u_n \rangle \\
+ &= F(x_0) + {\rm Reg}(u_1,\cdots,u_K) + \sum_{k=1}^K  \mathbb{E} \left \langle \sum_{t=1}^T \nabla g(w_t^k;\xi_t^k),u_k \right\rangle \\
+ &\le F(x_0) + {\rm Reg}(u_1,\cdots,u_K) + \sum_{k=1}^K  \mathbb{E} \left \langle \sum_{t=1}^T \nabla g(w_t^k),u_k \right\rangle + D G K \sqrt{T} \\
+ &= F(x_0) + {\rm Reg}(u_1,\cdots,u_K) - D \sum_{k=1}^K  \mathbb{E} \left \Vert \sum_{t=1}^T \nabla g(w_t^k) \right\Vert + D G K \sqrt{T}.
 \end{align*}
 $$
 
@@ -93,4 +98,5 @@ $$
 
 
 令 $ D T = \delta$ , 可以使得 $ \Vert w_t^k - \bar w_t^k \Vert \le \delta$,  因此上面的算法可以在 $\mathcal{O}( G^2 \Delta\delta^{-1} \epsilon^{-3})$ 的时间内找到 $(\delta,\epsilon$) - 稳定点.
+
 
