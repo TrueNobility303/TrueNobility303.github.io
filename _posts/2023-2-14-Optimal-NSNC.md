@@ -99,7 +99,8 @@ $$
 $$
 
 
-令 $D T = \delta$ , 可以使得 $\Vert w_t^k - \bar w_t^k \Vert \le \delta$,  因此上面的算法可以在 $\mathcal{O}( G^2 \Delta\delta^{-1} \epsilon^{-3})$ 的时间内找到 $(\delta,\epsilon$) - 稳定点.
+令 $D T = \delta$ , 可以使得 $\Vert w_t^k - \bar w_t^k \Vert \le \delta$,  因此上面的算法可以在 $\mathcal{O}( \Delta G^2 \delta^{-1} \epsilon^{-3})$ 的时间内找到 $(\delta,\epsilon$)-稳定点.
+
 
 
 
