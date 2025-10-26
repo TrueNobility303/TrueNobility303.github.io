@@ -3,7 +3,9 @@ title: 'Optimal Stochastic Nonsmooth Nonconvex Optimization'
 toc: true
 excerpt_separator: <!--more-->
 tags:
-  - 优化
+  - 随机优化
+  - 非凸优化
+  - 加速
 ---
 
 Paper Reading: Optimal Stochastic Non-smooth Non-convex Optimization through Online-to-Non-convex Conversion
@@ -74,7 +76,7 @@ $$
 $$
 \begin{align*}
 F^* &\le F(x_0) + \sum_{n=1}^M \mathbb{E} \langle g_n, \Delta_n - u_n \rangle + \sum_{n=1}^M \mathbb{E} \langle g_n,u_n \rangle \\
- &\le  F(x_0) + {\rm Reg}(u_1,\cdots,u_K) + \sum_{n=1}^M \mathbb{E} \langle g_n,u_n \rangle \\
+ &=  F(x_0) + {\rm Reg}(u_1,\cdots,u_K) + \sum_{n=1}^M \mathbb{E} \langle g_n,u_n \rangle \\
  &= F(x_0) + {\rm Reg}(u_1,\cdots,u_K) + \sum_{k=1}^K  \mathbb{E} \left \langle \sum_{t=1}^T \nabla g(w_t^k;\xi_t^k),u_k \right\rangle \\
  &\le F(x_0) + {\rm Reg}(u_1,\cdots,u_K) + \sum_{k=1}^K  \mathbb{E} \left \langle \sum_{t=1}^T \nabla g(w_t^k),u_k \right\rangle + D G K \sqrt{T} \\
  &= F(x_0) + {\rm Reg}(u_1,\cdots,u_K) - D \sum_{k=1}^K  \mathbb{E} \left \Vert \sum_{t=1}^T \nabla g(w_t^k) \right\Vert + D G K \sqrt{T}.
@@ -98,6 +100,7 @@ $$
 
 
 令 $D T = \delta$ , 可以使得 $\Vert w_t^k - \bar w_t^k \Vert \le \delta$,  因此上面的算法可以在 $\mathcal{O}( G^2 \Delta\delta^{-1} \epsilon^{-3})$ 的时间内找到 $(\delta,\epsilon$) - 稳定点.
+
 
 
 
