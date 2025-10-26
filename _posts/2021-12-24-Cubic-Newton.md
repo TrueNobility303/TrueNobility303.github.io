@@ -221,7 +221,7 @@ $$
 
 
 
-对于一阶条件，使用关于 $\Vert \nabla f (T_M(x)) \Vert $  的界，
+对于一阶条件，使用关于 $\Vert \nabla f (T_M(x)) \Vert$  的界，
 $$
 \begin{align*}
 \Vert \nabla f (T_M(x)) \Vert &\le \frac{L+M}{2} r_M(x)^2 \\
@@ -301,19 +301,24 @@ $$
 f(x_{k+1}) &= f(T_M(x_k)) \\
 &\le \min_y [f(y) + \langle \nabla f(x_k) , y-x_k \rangle +\frac{1}{2} \langle \nabla^2 f(x_k) (y-x_k) , y-x_k \rangle + \frac{M}{6} \Vert y - x_k \Vert^3] \\
 &\le \min_y [f(y) + \frac{M+L}{6} \Vert y - x_k \Vert^3] \\
-&\le \min_y  [f(y) + \frac{M+L}{6} \Vert y - x_k \Vert^3]:y = \alpha f(x_{\star}) +(1-\alpha) f(x_k) \\
+&\le \min_y  [f(y) + \frac{M+L}{6} \Vert y - x_k \Vert^3]:y = \alpha f(x_{\star}) +(1-\alpha) f(x_k)
+\end{align*}
+$$
+
+进一步，有
+
+$$
+\begin{align*}
 f(x_{k+1}) - f(x_{\star}) &\le \min_y  [f(y)-f(x_{\star}) + \frac{M+L}{6} \Vert y - x_k \Vert^3]:y = \alpha x_{\star} +(1-\alpha) x_k \\
 &= \min_{\alpha} [f(y) - f(x_{\star}) + \frac{(M+L)\alpha^3}{6} \Vert x_k -x_{\star} \Vert^3 ]\\
 &\le \min_{\alpha} [(1-\alpha)(f(x_k) - f(x_{\star}) + \frac{(M+L)\alpha^3}{6} \Vert x_k -x_{\star} \Vert^3 ] \\
 &\le \min_{\alpha} [(1-\alpha)(f(x_k) - f(x_{\star})) + \frac{L\alpha^3}{2} \Vert x_k -x_{\star} \Vert^3 ] ,\text{By } M \le 2L\\
 &\le \min_{\alpha} [(1-\alpha)(f(x_k) - f(x_{\star})) + \frac{L\alpha^3D^3}{2}  ],\text{By Assumption} \\
-&=(1-\frac{2}{3}\alpha_k) (f(x_k) -f(x_{\star})), \text{Let } \alpha_k^2 = \frac{2(f(x_k) - f(x_{\star}))}{3LD^3} \\
+&=(1-\frac{2}{3}\alpha_k) (f(x_k) -f(x_{\star})), \text{Let } \alpha_k^2 = \frac{2(f(x_k) - f(x_{\star}))}{3LD^3} 
 \end{align*}
 $$
 
-
 利用 $\alpha_k$ 的界可以得到算法的收敛性，当 $\alpha_k \ge 1$ 的时候只需要取步长 $\alpha=1$, 此时简单代入可以得到结果，考虑 $\alpha_k \le 1$的情况。
-
 
 $$
 \begin{align*}
@@ -328,6 +333,7 @@ $$
 
 
 从最终的式子可以看见算法的收敛率为 $O(\frac{1}{k^2})$ , 这也与FISTA等算法的收敛率相匹配，作为一个二阶优化算法，达到一阶优化算法的最优收敛率也并不奇怪。
+
 
 
 
