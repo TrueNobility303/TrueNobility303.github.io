@@ -5,7 +5,16 @@ permalink: /publications/
 author_profile: true
 ---
 
-I have a broad interest in modern optimization theory (inspired by theoretical computer science). Currently, I am primarily focusing on the complexity of multi-agent optimization (MAOPT). In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in MAOPT, including the complexity of first-order bilevel optimization [1,3,8] and high-order min(-max) optimization [2,4].
+I have a broad interest in modern optimization theory (inspired by theoretical computer science). Currently, I am primarily focusing on the complexity of multi-agent optimization (MAOPT). In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in MAOPT, including the complexity of first-order bilevel optimization and high-order min(-max) optimization.
+
+<h2> Research Highlights </h2>
+
+<ul>
+<li>  <a href="https://github.com/TrueNobility303/Minimax-AIPE">High-Order Acceleration in Minimax Optimization</a>
+</li>
+<li>  <a href="https://github.com/TrueNobility303/F2BA">First-Order Bilevel Optimization</a>
+</li>
+</ul>
 
 <h2> Featured Publications </h2>
 
