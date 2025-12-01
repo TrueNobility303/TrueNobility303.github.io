@@ -23,6 +23,10 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
 <ol class="custom-ol">
 <font size="3">  
 <li><p> 
+<b>Lesi Chen</b> and Jingzhao Zhang, <i>On the Condition Number Dependency in Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> ⭐
+</p>
+</li>    
+<li><p> 
 <b>Lesi Chen</b>, Junru Li, and Jingzhao Zhang, <i> Faster Gradient Methods for Highly-smooth Stochastic Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2509.02937">[arXiv 2025]</a> ⭐
 </p>
 </li>    
