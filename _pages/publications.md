@@ -30,7 +30,7 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
 <b>Lesi Chen</b>, Junru Li, and Jingzhao Zhang, <i> Faster Gradient Methods for Highly-smooth Stochastic Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2509.02937">[arXiv 2025]</a> ⭐
 </p>
 </li>    
-<li><p> <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ Second-Order Oracle Complexity</i>, in Conference on Learning Theory. <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> ⭐ <br>  <b>Best Student Paper Award 
+<li><p> <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ Second-Order Oracle Complexity</i>, in Annual Conference on Learning Theory. <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> ⭐ <br>  <b>Best Student Paper Award 
 </b> 🏆
 </p></li> 
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Yaohua Ma<sup>1#</sup>, and Jingzhao Zhang,
@@ -55,8 +55,7 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
 <li><p> Communication Efficient Distributed Newton Method with Fast Convergence Rates. <br />
  Chengchang Liu, <b>Lesi Chen</b>, Luo Luo, and John C.S. Lui. <a href="https://arxiv.org/abs/2305.17945">[SIGKDD 2023] </a>
 </p> </li> -->
-<li><p> <b>Lesi Chen<sup>1</sup></b>, Jing Xu<sup>1</sup>, and Jingzhao Zhang, <i> On Finding Small Hyper-Gradients in Bilevel Optimization: Hardness Results and Improved Analysis</i>,
- in Conference on Learning Theory. 
+<li><p> <b>Lesi Chen<sup>1</sup></b>, Jing Xu<sup>1</sup>, and Jingzhao Zhang, <i> On Finding Small Hyper-Gradients in Bilevel Optimization: Hardness Results and Improved Analysis</i>, in Annual Conference on Learning Theory. 
 <a href="https://arxiv.org/abs/2301.00712">[COLT 2024]</a> ⭐
 </p></li>
 <!--  <li><p>
