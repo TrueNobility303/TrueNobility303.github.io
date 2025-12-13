@@ -74,10 +74,10 @@ in International Conference on Artificial Intelligence and Statistics. <a href="
  in International Conference on Machine Learning. 
   <a href="https://arxiv.org/abs/2301.06428"> [ICML 2023]</a>
  </p> </li>
-<li><p>  <b>Lesi Chen</b>, Boyuan Yao, and Luo Luo, <i> Faster Stochastic Algorithms for Minimax Optimization under Polyak-Łojasiewicz Condition</i>, 
+<!-- <li><p>  <b>Lesi Chen</b>, Boyuan Yao, and Luo Luo, <i> Faster Stochastic Algorithms for Minimax Optimization under Polyak-Łojasiewicz Condition</i>, 
  in Conference on Neural Information Processing Systems.
   <a href="https://arxiv.org/abs/2307.15868"> [NeurIPS 2022]</a>
- </p> </li>
+ </p> </li> -->
 </font>
 </ol>
 
