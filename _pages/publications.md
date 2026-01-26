@@ -10,7 +10,7 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
 <h2> Research Highlights </h2>
 
 <ul>
-<li>  <a href="https://github.com/TrueNobility303/Minimax-AIPE">High-Order Acceleration in Minimax Optimization</a>
+<li>  <a href="https://github.com/TrueNobility303/Minimax-AIPE">High-Order Min-(Max) Optimization</a>
 </li>
 <li>  <a href="https://github.com/TrueNobility303/F2BA">First-Order Bilevel Optimization</a>
 </li>
