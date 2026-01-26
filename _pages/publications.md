@@ -22,6 +22,11 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
     
 <ol class="custom-ol">
 <font size="3">  
+<li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
+<i> Faster Newton Methods for Convex and Nonconvex Optimization in Gradient Complexity </i>,
+ arXiv preprint.
+ <a href="https://arxiv.org/abs/2501.17488">[arXiv 2026]</a> ⭐
+</p></li>
 <li><p> 
 <b>Lesi Chen</b> and Jingzhao Zhang, <i>On the Condition Number Dependency in Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> ⭐
 </p>
@@ -37,11 +42,6 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
  <i> Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles </i>, Journal of Machine Learning Research, 1-56. 
   <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> ⭐
  </p></li>
-<!-- <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
-<i> Computationally Faster Newton Methods by Lazy Evaluations </i>,
- arXiv preprint (extended from ICLR 2025 below).
- <a href="https://arxiv.org/abs/2501.17488">[arXiv 2025]</a> ⭐
-</p></li> -->
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu<sup>1</sup>, and Jingzhao Zhang,  <i> Second-Order Min-Max Optimization with Lazy Hessians</i>, in International Conference on  Learning Representations. <b>(Oral) top 1.8% </b>  <a href="https://arxiv.org/pdf/2410.09568">[ICLR 2025]</a> 
 </p></li>
 <li><p> <b>Lesi Chen</b> and Luo Luo, <i> Near-Optimal Algorithms for Making the Gradient Small in Stochastic Minimax Optimization</i>, Journal of Machine Learning Research, 1-44. 
