@@ -27,8 +27,9 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
 <li><p> 
 <b>Lesi Chen</b> and Jingzhao Zhang, <i>On the Condition Number Dependency in Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> ⭐
 </p></li>    
-</ol>
 </font>
+</ol>
+
  
 <h2> Featured Publications </h2>
 
