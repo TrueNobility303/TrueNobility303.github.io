@@ -16,10 +16,7 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
 </li>
 </ul>
 
-<h2> Featured Publications </h2>
-
-<sup>1</sup> indicates co-first-authors, <sup>#</sup> indicates undergraduates supervised by me and Jingzhao.
-    
+<h2> Preprints </h2>
 <ol class="custom-ol">
 <font size="3">  
 <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
@@ -31,6 +28,13 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
 <b>Lesi Chen</b> and Jingzhao Zhang, <i>On the Condition Number Dependency in Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> ⭐
 </p>
 </li>    
+</ol>    
+<h2> Featured Publications </h2>
+
+<sup>1</sup> indicates co-first-authors, <sup>#</sup> indicates undergraduates supervised by me and Jingzhao.
+    
+<ol class="custom-ol">
+<font size="3">      
 <li><p> 
 <b>Lesi Chen</b>, Junru Li, El Mahdi Chayti and Jingzhao Zhang, <i> Faster Gradient Methods for Highly-smooth Stochastic Bilevel Optimization</i>, in International Conference on Learning Representations. <a href="https://arxiv.org/abs/2509.02937">[ICLR 2026]</a> ⭐
 </p>
