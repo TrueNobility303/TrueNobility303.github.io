@@ -62,7 +62,7 @@ I have a broad interest in modern optimization theory (inspired by theoretical c
  Chengchang Liu, <b>Lesi Chen</b>, Luo Luo, and John C.S. Lui. <a href="https://arxiv.org/abs/2305.17945">[SIGKDD 2023] </a>
 </p> </li> -->
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Jing Xu<sup>1</sup>, and Jingzhao Zhang, <i> On Finding Small Hyper-Gradients in Bilevel Optimization: Hardness Results and Improved Analysis</i>, in Conference on Learning Theory. 
-<a href="https://arxiv.org/abs/2301.00712">[COLT 2024]</a> 
+<a href="https://arxiv.org/abs/2301.00712">[COLT 2024]</a> ⭐
 </p></li>
 <!--  <li><p>
 Yuxing Liu, <b>Lesi Chen</b>,  and Luo Luo, <i>
