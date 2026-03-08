@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-I have a broad interest in modern optimization theory (inspired by theoretical computer science). Currently, I am primarily focusing on the complexity of multi-agent optimization (MAOPT). In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in MAOPT, including the complexity of first-order bilevel optimization and high-order min(-max) optimization.
+I have broad interests in modern optimization theory, with a particular focus on game-structure optimization. In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in this area, such as the complexity of first-order bilevel optimization and high-order min(-max) optimization.
 
 <h2> Research Highlights </h2>
 
