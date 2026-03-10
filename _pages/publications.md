@@ -38,7 +38,7 @@ I have broad interests in modern optimization theory, with a particular focus on
 <ol class="custom-ol">
 <font size="3">      
 <li><p> 
-<b>Lesi Chen</b>, Junru Li, El Mahdi Chayti and Jingzhao Zhang, <i> Faster Gradient Methods for Highly-smooth Stochastic Bilevel Optimization</i>, in International Conference on Learning Representations. <a href="https://arxiv.org/abs/2509.02937">[ICLR 2026]</a> 
+<b>Lesi Chen</b>, Junru Li, El Mahdi Chayti and Jingzhao Zhang, <i> Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization</i>, in International Conference on Learning Representations. <a href="https://arxiv.org/abs/2509.02937">[ICLR 2026]</a> 
 </p>
 </li>
 <li><p> <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ Second-Order Oracle Complexity</i>, in Conference on Learning Theory. <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> ⭐ <br>  <b>Best Student Paper Award 
