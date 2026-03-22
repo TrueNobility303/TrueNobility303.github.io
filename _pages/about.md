@@ -20,8 +20,7 @@ I am now a third-year Ph.D. student at [Institute for Interdisciplinary Informat
 </font>
 </ul>
 
-<h2> Services </h2>
-<h3> Teaching Assistant </h3> 
+<h2> Teaching Assistant </h2> 
 <ul>
 <font size="3">
 <li><p> <a href="https://sites.google.com/view/jingzhao/teaching/fall-2023-intro-to-optimization">[Introduction to Optimization 2023] </a>, Fall, Tsinghua University.
@@ -31,14 +30,12 @@ I am now a third-year Ph.D. student at [Institute for Interdisciplinary Informat
 </font>
 </ul>
 
-<h3> Reviewers </h3>
+<!-- <h3> Reviewers </h3>
 <ul>
 <font size="3">
-<li><p> Journals: JMLR, TPAMI.
+<li><p> Journals: JMLR, TPAMI; Conferences: ICLR, ICML, NeurIPS.
 </p> </li>
-<li><p> Conferences: ICLR, ICML, NeurIPS.
-</p> </li>
-</font>
+</font> -->
 
 
 
