@@ -33,7 +33,7 @@ I have broad interests in modern optimization theory, with a particular focus on
  
 <h2> Featured Publications </h2>
 
-<sup>1</sup> indicates co-first-authors.
+<!-- <sup>1</sup> indicates co-first-authors. -->
     
 <ol class="custom-ol">
 <font size="3">      
