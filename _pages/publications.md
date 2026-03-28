@@ -33,7 +33,7 @@ I have broad interests in modern optimization theory, with a particular focus on
  
 <h2> Featured Publications </h2>
 
-<sup>1</sup> indicates co-first-authors, <sup>#</sup> indicates undergraduates supervised by me and Jingzhao.
+<sup>1</sup> indicates co-first-authors.
     
 <ol class="custom-ol">
 <font size="3">      
@@ -44,7 +44,7 @@ I have broad interests in modern optimization theory, with a particular focus on
 <li><p> <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ Second-Order Oracle Complexity</i>, in Conference on Learning Theory. <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> ⭐ <br>  <b>Best Student Paper Award 
 </b>
 </p></li> 
-<li><p> <b>Lesi Chen<sup>1</sup></b>, Yaohua Ma<sup>1#</sup>, and Jingzhao Zhang,
+<li><p> <b>Lesi Chen<sup>1</sup></b>, Yaohua Ma<sup>1</sup>, and Jingzhao Zhang,
  <i> Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles </i>, Journal of Machine Learning Research, 1-48. 
   <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> ⭐
  </p></li>
@@ -53,7 +53,7 @@ I have broad interests in modern optimization theory, with a particular focus on
 <li><p> <b>Lesi Chen</b> and Luo Luo, <i> Near-Optimal Algorithms for Making the Gradient Small in Stochastic Minimax Optimization</i>, Journal of Machine Learning Research, 1-44. 
   <a href="https://arxiv.org/abs/2208.05925">[JMLR 2024]</a>
 </p></li> 
-<li><p> Huaqing Zhang<sup>1#</sup>, <b>Lesi Chen<sup>1</sup></b>, Jing Xu, and Jingzhao Zhang, <i>
+<li><p> Huaqing Zhang<sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Jing Xu, and Jingzhao Zhang, <i>
  Functionally Constrained Algorithm Solves Convex Simple Bilevel Problems</i>, in Conference on Neural Information Processing Systems. <br>
  <a href="https://arxiv.org/abs/2409.06530">[NeurIPS 2024]</a>
  </p></li>
