@@ -1,6 +1,6 @@
 ---
 permalink: /teaching/
-title: "Teaching and Services"
+title: "Teaching"
 ---
 
 <h2> Teaching Assistant </h2> 
