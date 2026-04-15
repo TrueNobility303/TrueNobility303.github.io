@@ -7,8 +7,7 @@ I plan to maintain a list of open problems that arise from my work. In the follo
 
 <ol class="custom-ol">
 <font size="3">  
-<p>
-<li> 
+<p><li>
 Fully First-Order Stochastic Bilevel Optimization <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> <br>
 <b>UB: </b> $\mathcal{O}(\epsilon^{-6} \ln \epsilon^{-1})$ <b>LB: </b> $\Omega(\epsilon^{-4})$.
 </li>
