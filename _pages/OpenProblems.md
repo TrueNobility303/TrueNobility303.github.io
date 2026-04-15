@@ -3,7 +3,7 @@ permalink: /openproblems/
 title: "Open Problems"
 ---
 
-I plan to maintain a list of open problems that arise from my work. In the following, I present the best-known upper bound (UB) and lower bound (LB) to show the gap for future work.
+I plan to maintain a list of open problems that arise from my work. In the following, I present the best-known upper bound (UB) and lower bound (LB) to show the gap for future work. Please do not hesitate to contact me if you have any thoughts on closing the gap.
 
 <ol class="custom-ol">
 <font size="3">  
