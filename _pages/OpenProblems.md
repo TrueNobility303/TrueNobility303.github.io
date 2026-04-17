@@ -8,6 +8,11 @@ I plan to maintain a list of open problems that arise from my work. In the follo
 <ol class="custom-ol">
 <font size="3">  
 <p><li>
+Fully First-Order Stochastic Bilevel Optimization with Highly-Smooth Lower-Level Functions <a href="https://arxiv.org/abs/2509.02937">[ICLR 2026]</a> <br>
+<b>UB: </b> $\tilde{\mathcal{O}}_p(\kappa^{9+2/p} \epsilon^{-4-2/p})$ <b> <a href="https://arxiv.org/abs/2511.22331">LB</a>:</b> $\Omega(\kappa^4 \epsilon^{-4})$ <b>Gap: </b> $\epsilon^{5+2/p} \epsilon^{-2/p}$.
+</li>
+</p>
+<p><li>
 Fully First-Order Stochastic Bilevel Optimization <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> <br>
 <b>UB: </b> $\tilde{\mathcal{O}}(\epsilon^{-6})$ <b>LB: </b> $\Omega(\epsilon^{-4})$ <b>Gap: </b> $\epsilon^{-2}$.
 </li>
