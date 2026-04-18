@@ -15,7 +15,7 @@ Nonconvex. <b>UB: </b> $\mathcal{O}(m^{1/3} \epsilon^{-3/2})$  <b>LB:</b> $\Omeg
 </p>
 <p><li>
 Second-Order Min-Max Optimization (and with $m$-Delayed Hessians) <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a>  <br>
-<b>UB: </b> $\tilde{\mathcal{O}}(m^{5/7} \epsilon^{-4/7})$  <b>LB:</b> $\Omega(\epsilon^{-2/5})$ <b>Gap: </b> $m^{5/7} \epsilon^{-2/35}$ 
+<b>UB: </b> $\tilde{\mathcal{O}}(m^{5/7} \epsilon^{-4/7})$  <b>LB:</b> $\Omega(\epsilon^{-2/5})$ <b>Gap: </b> $m^{5/7} \epsilon^{-6/35}$ 
 </li>
 </p>
 <p><li>
