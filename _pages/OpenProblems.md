@@ -21,7 +21,7 @@ Second-Order Min-Max Optimization (and with $m$-Delayed Hessians) <a href="http:
 <p><li>
 Fully First-Order Bilevel Optimization <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> <br>
 Deterministic. <b>UB: </b> $\tilde{\mathcal{O}}(\kappa^{7/2} \epsilon^{-6})$  <b> <a href="https://arxiv.org/abs/2511.22331">LB</a>:</b> $\Omega(\kappa^2 \epsilon^{-2})$ <b>Gap: </b> $\kappa^{3/2}$  <br>
-Stochastic. <b>UB: </b> $\tilde{\mathcal{O}}(\kappa^9 \epsilon^{-6})$  <b> <a href="https://arxiv.org/abs/2511.22331">LB</a>:</b> $\Omega(\kappa^4 \epsilon^{-4})$ <b>Gap: </b> $\kappa^5 \epsilon^{-2}$ 
+Stochastic. <b>UB: </b> $\tilde{\mathcal{O}}(\kappa^{11} \epsilon^{-6})$  <b> <a href="https://arxiv.org/abs/2511.22331">LB</a>:</b> $\Omega(\kappa^4 \epsilon^{-4})$ <b>Gap: </b> $\kappa^7 \epsilon^{-2}$ 
 </li>
 </p>
 <p><li>
