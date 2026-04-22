@@ -41,8 +41,7 @@ I have broad interests in modern optimization theory, with a particular focus on
 <b>Lesi Chen</b>, Junru Li, El Mahdi Chayti and Jingzhao Zhang, <i> Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization</i>, in International Conference on Learning Representations. <a href="https://arxiv.org/abs/2509.02937">[ICLR 2026]</a> 
 </p>
 </li>
-<li><p> <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ Second-Order Oracle Complexity</i>, in Conference on Learning Theory. <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> ⭐ <br>  <b>Best Student Paper Award 
-</b>
+<li><p> <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ Second-Order Oracle Complexity</i>, in Conference on Learning Theory. <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> ⭐ <br>  <b>Best Student Paper Award. </b>
 </p></li> 
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Yaohua Ma<sup>1</sup>, and Jingzhao Zhang,
  <i> Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles </i>, Journal of Machine Learning Research, 1-48. 
