@@ -5,16 +5,16 @@ permalink: /publications/
 author_profile: true
 ---
 
-I have broad interests in modern optimization theory, with a particular focus on game-structure optimization. In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in this area, such as the complexity of first-order bilevel optimization and high-order min(-max) optimization.
+I have broad interests in modern optimization theory, with a particular focus on game-structure optimization. In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in this area, such as the complexity of first-order bilevel optimization and high-order min(-max) optimization. 
 
 <h2> Research Highlights </h2>
-
 <ul>
 <li>  <a href="https://github.com/TrueNobility303/LEN">High-Order Min-(Max) Optimization</a>
 </li>
 <li>  <a href="https://github.com/TrueNobility303/F2BA">First-Order Bilevel Optimization</a>
 </li>
 </ul>
+A list of open problems is maintained <a href="https://truenobility303.github.io/openproblems/">here</a>.
 
 <h2> Preprints </h2>
 <ol class="custom-ol">
