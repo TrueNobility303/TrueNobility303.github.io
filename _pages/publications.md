@@ -46,7 +46,7 @@ A list of open problems is maintained <a href="https://truenobility303.github.io
  <i> Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles </i>, Journal of Machine Learning Research, 1-48. 
   <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> ⭐
  </p></li>
-<li><p> <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu<sup>1</sup>, and Jingzhao Zhang,  <i> Second-Order Min-Max Optimization with Lazy Hessians</i>, in International Conference on  Learning Representations. <b>(Oral) top 1.8% </b>  <a href="https://arxiv.org/pdf/2410.09568">[ICLR 2025]</a> 
+<li><p> <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu<sup>1</sup>, and Jingzhao Zhang,  <i> Second-Order Min-Max Optimization with Lazy Hessians</i>, in International Conference on  Learning Representations. <b>(Oral, <2%) </b>  <a href="https://arxiv.org/pdf/2410.09568">[ICLR 2025]</a> 
 </p></li>
 <li><p> <b>Lesi Chen</b> and Luo Luo, <i> Near-Optimal Algorithms for Making the Gradient Small in Stochastic Minimax Optimization</i>, Journal of Machine Learning Research, 1-44. 
   <a href="https://arxiv.org/abs/2208.05925">[JMLR 2024]</a>
