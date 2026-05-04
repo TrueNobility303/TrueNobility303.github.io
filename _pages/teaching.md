@@ -17,4 +17,13 @@ title: "Teaching"
 </ul>
 
 <h2> Services </h2>
-I am a reviewer for journals JMLR, TPAMI, and conferences SODA, ICLR/ICML/NeurIPS.
+<ul>
+<font size="3">
+<li><p>
+Journal Reviewer: JMLR, TPAMI.
+</p></li>
+<li><p>
+Conference Reviewer: SODA, ICLR, ICML, NeurIPS.
+</p></li>
+</font>
+</ul>
