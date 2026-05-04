@@ -19,11 +19,6 @@ A list of open problems is maintained <a href="https://truenobility303.github.io
 <h2> Preprints </h2>
 <ol class="custom-ol">
 <font size="3">  
-<li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
-<i> Faster Newton Methods for Convex and Nonconvex Optimization in Gradient Complexity </i>,
- arXiv preprint.
- <a href="https://arxiv.org/abs/2501.17488">[arXiv 2026]</a> ⭐
-</p></li>
 <li><p> 
 <b>Lesi Chen</b> and Jingzhao Zhang, <i>On the Condition Number Dependency in Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> ⭐
 </p></li>    
@@ -37,6 +32,10 @@ A list of open problems is maintained <a href="https://truenobility303.github.io
     
 <ol class="custom-ol">
 <font size="3">      
+ <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
+<i> Faster Newton Methods for Convex and Nonconvex Optimization in Gradient Complexity </i>, in Conference on Learning Theory.
+ <a href="https://arxiv.org/abs/2501.17488">[COLT 2026]</a> ⭐
+</p></li>
 <li><p> 
 <b>Lesi Chen</b>, Junru Li, El Mahdi Chayti and Jingzhao Zhang, <i> Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization</i>, in International Conference on Learning Representations. <a href="https://arxiv.org/abs/2509.02937">[ICLR 2026]</a> 
 </p>
