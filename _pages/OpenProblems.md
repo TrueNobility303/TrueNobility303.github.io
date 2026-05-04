@@ -8,7 +8,7 @@ I plan to maintain a list of open problems that arise from my work. In the follo
 <ol class="custom-ol">
 <font size="3">  
 <p><li>
-Second-Order Optimization (and with $m$-Delayed Hessians)  <a href="https://arxiv.org/abs/2501.17488">[arXiv 2026]</a>  <br>
+Second-Order Optimization (and with $m$-Delayed Hessians)  <a href="https://arxiv.org/abs/2501.17488">[COLT 2026]</a>  <br>
 Convex. <b>UB: </b> $\tilde{\mathcal{O}}(m^{5/7} \epsilon^{-2/7})$  <b>LB:</b> $\Omega(\epsilon^{-2/7})$ <b>Gap: </b> $m^{5/7}$  <br>
 Nonconvex. <b>UB: </b> $\mathcal{O}(m^{1/3} \epsilon^{-3/2})$  <b>LB:</b> $\Omega(\epsilon^{-3/2})$ <b>Gap: </b> $m^{1/3}$
 </li>
