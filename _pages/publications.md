@@ -32,6 +32,13 @@ A list of open problems is maintained <a href="https://truenobility303.github.io
     
 <ol class="custom-ol">
 <font size="3">      
+ <li><p>
+ Sheng Yang, Chengchang Liu, <b>Lesi Chen</b>, John C.S. Lui,
+ <i> Second-Order Bilevel Optimization with Accelerated Convergence Rates </i>, 
+ in International Conference on Machine Learning. 
+  <a href="https://arxiv.org/pdf/2605.06431"> [ICML 2026]</a>
+ </li>
+ </p>
  <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
 <i> Faster Newton Methods for Convex and Nonconvex Optimization in Gradient Complexity </i>, in Conference on Learning Theory.
  <a href="https://arxiv.org/abs/2501.17488">[COLT 2026]</a> ⭐
