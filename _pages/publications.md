@@ -61,12 +61,8 @@ A list of open problems is maintained <a href="https://truenobility303.github.io
  Functionally Constrained Algorithm Solves Convex Simple Bilevel Problems</i>, in Conference on Neural Information Processing Systems. <br>
  <a href="https://arxiv.org/abs/2409.06530">[NeurIPS 2024]</a>
  </p></li>
-<!-- 
-<li><p> Communication Efficient Distributed Newton Method with Fast Convergence Rates. <br />
- Chengchang Liu, <b>Lesi Chen</b>, Luo Luo, and John C.S. Lui. <a href="https://arxiv.org/abs/2305.17945">[SIGKDD 2023] </a>
-</p> </li> -->
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Jing Xu<sup>1</sup>, and Jingzhao Zhang, <i> On Finding Small Hyper-Gradients in Bilevel Optimization: Hardness Results and Improved Analysis</i>, in Conference on Learning Theory. 
-<a href="https://arxiv.org/abs/2301.00712">[COLT 2024]</a> ⭐
+<a href="https://arxiv.org/abs/2301.00712">[COLT 2024]</a> 
 </p></li>
 <!--  <li><p>
 Yuxing Liu, <b>Lesi Chen</b>,  and Luo Luo, <i>
