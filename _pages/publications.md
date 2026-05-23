@@ -14,7 +14,8 @@ I have broad interests in modern optimization theory, with a particular focus on
 <li>  <a href="https://github.com/TrueNobility303/F2BA">First-Order Bilevel Optimization</a>
 </li>
 </ul>
-A list of open problems is maintained <a href="https://truenobility303.github.io/openproblems/">here</a>.
+
+<!-- A list of open problems is maintained <a href="https://truenobility303.github.io/openproblems/">here</a>. -->
 
 <h2> Preprints </h2>
 <ol class="custom-ol">
