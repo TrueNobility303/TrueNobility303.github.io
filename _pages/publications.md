@@ -9,9 +9,9 @@ I have broad interests in modern optimization theory, with a particular focus on
 
 <h2> Research Highlights </h2>
 <ul>
-<li>  <a href="https://github.com/TrueNobility303/LEN">High-Order Min-(Max) Optimization</a>
+<li> High-Order Min-(Max) Optimization. <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides]</a> <a href="https://github.com/TrueNobility303/LEN">[Github]</a>
 </li>
-<li>  <a href="https://github.com/TrueNobility303/F2BA">First-Order Bilevel Optimization</a>
+<li> First-Order Bilevel Optimization <a href="https://drive.google.com/file/d/1lghkhCXdDP9IQWwBK_E_sfCjokgFlrGu/view?usp=sharing">[Slides]</a> <a href="https://github.com/TrueNobility303/F2BA">[Github]</a>
 </li>
 </ul>
 
