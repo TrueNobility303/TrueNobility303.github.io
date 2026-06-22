@@ -30,7 +30,8 @@ I have broad interests in modern optimization theory, with a particular focus on
 <h2> Featured Publications </h2>
 
 <!-- <sup>1</sup> indicates co-first-authors. -->
-    
+
+The conference and journal publications that have overlapped are grouped in one item.
 <ol class="custom-ol">
 <font size="3">      
 <!-- <li><p>
@@ -52,7 +53,9 @@ I have broad interests in modern optimization theory, with a particular focus on
 </p></li> 
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Yaohua Ma<sup>1</sup>, and Jingzhao Zhang,
  <i> Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles </i>, Journal of Machine Learning Research, 1-56. 
-  <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> ⭐
+  <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> ⭐ <br>
+<b>Lesi Chen<sup>1</sup></b>, Jing Xu<sup>1</sup>, and Jingzhao Zhang, <i> On Finding Small Hyper-Gradients in Bilevel Optimization: Hardness Results and Improved Analysis</i>, in Conference on Learning Theory. 
+<a href="https://arxiv.org/abs/2301.00712">[COLT 2024]</a> 
  </p></li>
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu<sup>1</sup>, and Jingzhao Zhang,  <i> Second-Order Min-Max Optimization with Lazy Hessians</i>, in International Conference on  Learning Representations. <b>(Oral, <2%) </b>  <a href="https://arxiv.org/pdf/2410.09568">[ICLR 2025]</a> 
 </p></li>
@@ -63,9 +66,6 @@ I have broad interests in modern optimization theory, with a particular focus on
  Functionally Constrained Algorithm Solves Convex Simple Bilevel Problems</i>, in Conference on Neural Information Processing Systems. <br>
  <a href="https://arxiv.org/abs/2409.06530">[NeurIPS 2024]</a>
  </p></li>
-<li><p> <b>Lesi Chen<sup>1</sup></b>, Jing Xu<sup>1</sup>, and Jingzhao Zhang, <i> On Finding Small Hyper-Gradients in Bilevel Optimization: Hardness Results and Improved Analysis</i>, in Conference on Learning Theory. 
-<a href="https://arxiv.org/abs/2301.00712">[COLT 2024]</a> 
-</p></li>
 <!--  <li><p>
 Yuxing Liu, <b>Lesi Chen</b>,  and Luo Luo, <i>
 Decentralized Convex Finite-Sum Optimization with Better Dependence on Condition Numbers</i>.
