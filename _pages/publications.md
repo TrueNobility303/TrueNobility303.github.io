@@ -31,7 +31,7 @@ I have broad interests in modern optimization theory, with a particular focus on
 
 <!-- <sup>1</sup> indicates co-first-authors. -->
 
-The conference and journal publications that have overlapped are grouped in one item.
+The conference and journal publications that have overlapped are grouped into one item.
 <ol class="custom-ol">
 <font size="3">      
 <!-- <li><p>
