@@ -48,8 +48,8 @@ The conference and journal publications that have overlapped are grouped in one 
 <b>Lesi Chen</b>, Junru Li, El Mahdi Chayti and Jingzhao Zhang, <i> Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization</i>, in International Conference on Learning Representations. <a href="https://arxiv.org/abs/2509.02937">[ICLR 2026]</a> 
 </p>
 </li>
-<li><p> <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ Second-Order Oracle Complexity</i>, in Conference on Learning Theory. <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> <br>
-<b>Best Student Paper Award. </b> ⭐ <i> Long version </i> with two additional authors <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a>.
+<li><p> <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ Second-Order Oracle Complexity</i>, in Conference on Learning Theory. <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> ⭐ <br>
+<b>Best Student Paper Award. </b>  <i> Long version </i> with two additional authors <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a>.
 </p></li> 
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Yaohua Ma<sup>1</sup>, and Jingzhao Zhang,
  <i> Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles </i>, Journal of Machine Learning Research, 1-56. 
