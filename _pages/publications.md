@@ -5,13 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
-I have broad interests in modern optimization theory, with a particular focus on game-structure optimization. In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in this area, such as the complexity of first-order bilevel optimization and high-order min(-max) optimization. 
+I have broad interests in modern optimization theory, with a particular focus on game-structure optimization. In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in this area, such as the oracle complexity of bilevel optimization and second-order convex, nonconvex, and minimax optimization.
 
 <h2> Research Highlights </h2>
 <ul>
-<li> High-Order Min-(Max) Optimization. <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides]</a> <a href="https://github.com/TrueNobility303/LEN">[Github]</a>
+<li> Second-Order Optimization <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides]</a> <a href="https://github.com/TrueNobility303/LEN">[Github]</a>
 </li>
-<li> First-Order Bilevel Optimization <a href="https://drive.google.com/file/d/1lghkhCXdDP9IQWwBK_E_sfCjokgFlrGu/view?usp=sharing">[Slides]</a> <a href="https://github.com/TrueNobility303/F2BA">[Github]</a>
+<li> Bilevel Optimization <a href="https://drive.google.com/file/d/1lghkhCXdDP9IQWwBK_E_sfCjokgFlrGu/view?usp=sharing">[Slides]</a> <a href="https://github.com/TrueNobility303/F2BA">[Github]</a>
 </li>
 </ul>
 
