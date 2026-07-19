@@ -54,8 +54,6 @@ The conference and journal publications that have overlapped are grouped into on
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Yaohua Ma<sup>1</sup>, and Jingzhao Zhang,
  <i> Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles </i>, Journal of Machine Learning Research, 1-56. 
   <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> ⭐ <br>
-<b>Lesi Chen<sup>1</sup></b>, Jing Xu<sup>1</sup>, and Jingzhao Zhang, <i> On Finding Small Hyper-Gradients in Bilevel Optimization: Hardness Results and Improved Analysis</i>, in Conference on Learning Theory. 
-<a href="https://arxiv.org/abs/2301.00712">[COLT 2024]</a> 
  </p></li>
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu<sup>1</sup>, and Jingzhao Zhang,  <i> Second-Order Min-Max Optimization with Lazy Hessians</i>, in International Conference on  Learning Representations. <b>(Oral, <2%) </b>  <a href="https://arxiv.org/pdf/2410.09568">[ICLR 2025]</a> 
 </p></li>
@@ -78,6 +76,10 @@ in International Conference on Artificial Intelligence and Statistics. <a href="
 <i> On the Complexity of Decentralized Smooth Nonconvex Finite-Sum Optimization </i>, arXiv preprint.
  <a href="https://arxiv.org/abs/2210.13931">[arXiv 2022]</a> ⭐
 </p> </li> -->
+ <li> <p>
+<b>Lesi Chen<sup>1</sup></b>, Jing Xu<sup>1</sup>, and Jingzhao Zhang, <i> On Finding Small Hyper-Gradients in Bilevel Optimization: Hardness Results and Improved Analysis</i>, in Conference on Learning Theory. 
+<a href="https://arxiv.org/abs/2301.00712">[COLT 2024]</a> 
+  </p> </li>
 <li><p> <b>Lesi Chen</b>, Jing Xu, and Luo Luo, <i> Faster Gradient-Free Algorithms for Nonsmooth Nonconvex Stochastic Optimization</i>,
  in International Conference on Machine Learning. 
   <a href="https://arxiv.org/abs/2301.06428"> [ICML 2023]</a>
