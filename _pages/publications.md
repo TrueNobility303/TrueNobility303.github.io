@@ -18,7 +18,7 @@ I have broad interests in modern optimization theory, with a particular focus on
 <!-- A list of open problems is maintained <a href="https://truenobility303.github.io/openproblems/">here</a>. -->
 
 <h2> Preprints </h2>
-<ol class="custom-ol">
+<ol>
 <font size="3">  
 <li><p> 
 <b>Lesi Chen</b> and Jingzhao Zhang, <i>On the Condition Number Dependency in Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> ⭐
