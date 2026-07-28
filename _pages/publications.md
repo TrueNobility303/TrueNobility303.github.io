@@ -8,7 +8,7 @@ author_profile: true
 I have broad interests in modern optimization theory, with a particular focus on game-structure optimization. In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in this area, such as the oracle complexity of bilevel optimization and second-order optimization for convex/nonconvex/minimax problems.
 
 <h2> Research Highlights </h2>
-<ol>
+<ol class="custom-ol">
 <li> Second-Order Optimization <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides]</a> <a href="https://github.com/TrueNobility303/LEN">[Github]</a>
 </li>
 <li> Bilevel Optimization <a href="https://drive.google.com/file/d/1lghkhCXdDP9IQWwBK_E_sfCjokgFlrGu/view?usp=sharing">[Slides]</a> <a href="https://github.com/TrueNobility303/F2BA">[Github]</a>
@@ -18,7 +18,7 @@ I have broad interests in modern optimization theory, with a particular focus on
 <!-- A list of open problems is maintained <a href="https://truenobility303.github.io/openproblems/">here</a>. -->
 
 <h2> Preprints </h2>
-<ol>
+<ol class="custom-ol">
 <font size="3">  
 <li><p> 
 <b>Lesi Chen</b> and Jingzhao Zhang, <i>On the Condition Number Dependency in Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> ⭐
