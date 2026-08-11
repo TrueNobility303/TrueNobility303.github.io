@@ -9,7 +9,7 @@ I have broad interests in modern optimization theory, with a particular focus on
 
 <h2> Research Highlights </h2>
 <ol class="custom-ol">
-<li> Minimax Optimization <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides in SIAM OP 26]</a> <br>
+<li> Second-Order Minimax Optimization <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides in SIAM OP 26]</a> <br>
  Upper Bound: $\tilde{\mathcal{O}}(1/T^{1.75})$ <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> $\to$ $\tilde{\mathcal{O}}(1/T^{2})$  <a href="https://arxiv.org/abs/2608.08463">[arXiv 2026]</a> <br>
  Lower Bound: $\Omega(1/T^{2.5})$ <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a>
 </li>
