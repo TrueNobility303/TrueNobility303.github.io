@@ -17,10 +17,17 @@ I have broad interests in modern optimization theory, with a particular focus on
 
 <!-- A list of open problems is maintained <a href="https://truenobility303.github.io/openproblems/">here</a>. -->
 
-<h2> Preprints </h2>
+<h2> Working Papers </h2>
 <ol class="custom-ol">
 <font size="3">  
+<li><p> <b>Lesi Chen<sup>1</sup></b>, Xinliang Zhang <sup>1</sup>, Junru Li, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/(3p+1)})$ pth-Order Oracle Complexity</i>,  arXiv preprint. <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a> <br>
+Preliminary version in Conference on Learning Theory. <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> ⭐ 
+<b>Best Student Paper Award. </b>
+</p></li> 
 <li><p> 
+<b>Lesi Chen<sup>1</sup></b>, Xinliang Zhang <sup>1</sup>, Hengyu Wang <sup>1</sup>, Chengchang Liu, Yongchao Chen, and Jingzhao Zhang, <i>Halpern Iteration Achieves $\tilde{\mathcal{O}}(\epsilon^{-1/p})$ pth-Order Oracle Complexity for Monotone Variational Inequalities</i>, arXiv preprint. <a href="https://arxiv.org/abs/2608.08463">[arXiv 2026]</a> ⭐
+</p></li>
+ <li><p>
 <b>Lesi Chen</b> and Jingzhao Zhang, <i>On the Condition Number Dependency in Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> ⭐
 </p></li>  
  <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, John C.S. Lui, and Jingzhao Zhang,
