@@ -5,13 +5,17 @@ permalink: /publications/
 author_profile: true
 ---
 
-I have broad interests in modern optimization theory, with a particular focus on game-structure optimization. In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in this area, such as the oracle complexity of bilevel optimization and second-order optimization for convex/nonconvex/minimax problems.
+I have broad interests in modern optimization theory, with a particular focus on game-structure optimization. In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in this area, such as the oracle complexity of convex, nonconvex, minimax, and bilevel optimization.
 
 <h2> Research Highlights </h2>
 <ol class="custom-ol">
-<li> Second-Order Optimization <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides]</a> <a href="https://github.com/TrueNobility303/LEN">[Github]</a>
+<li> Minimax Optimization <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides]</a> <br>
+ Upper Bound: $\tilde{\mathcal{O}}(1/T^{1.75})$ <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> $\to$ $\tilde{\mathcal{O}}(1/T^{2})$  <a href="https://arxiv.org/abs/2608.08463">[arXiv 2026]</a> <br>
+ Lower Bound: $\Omega(1/T^{2.5})$ <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a>
 </li>
-<li> Bilevel Optimization <a href="https://drive.google.com/file/d/1lghkhCXdDP9IQWwBK_E_sfCjokgFlrGu/view?usp=sharing">[Slides]</a> <a href="https://github.com/TrueNobility303/F2BA">[Github]</a>
+<li> Bilevel Optimization <a href="https://drive.google.com/file/d/1lghkhCXdDP9IQWwBK_E_sfCjokgFlrGu/view?usp=sharing">[Slides]</a> <br>
+ Upper Bound: $\tilde{\mathcal{O}}(\kappa^{3.5} \epsilon^{-2} + \sigma^2 \kappa^{11} \epsilon^{-6})$ <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> <br>
+ Lower Bound: $\Omega(\kappa^{2.5} \epsilon^{-2} + \sigma^2 \kappa^{4.5} \epsilon^{-4})$ <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> 
 </li>
 </ol>
 
