@@ -28,7 +28,7 @@ Preliminary version in Conference on Learning Theory. <b>(Best Student Paper, 2/
 <b>Lesi Chen<sup>1</sup></b>, Xinliang Zhang <sup>1</sup>, Hengyu Wang <sup>1</sup>, Chengchang Liu, Yongchao Chen, and Jingzhao Zhang, <i>Halpern Iteration Achieves $\tilde{\mathcal{O}}(\epsilon^{-1/p})$ pth-Order Oracle Complexity for Monotone Variational Inequalities</i>, arXiv preprint. <a href="https://arxiv.org/abs/2608.08463">[arXiv 2026]</a> ⭐
 </p></li>
  <li><p>
-<b>Lesi Chen</b> and Jingzhao Zhang, <i>On the Condition Number Dependency in Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> ⭐
+<b>Lesi Chen<sup>1</sup> </b>, Kaiyi Ji <sup>1</sup>, and Jingzhao Zhang, <i>On the Condition Number Dependency in Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> ⭐
 </p></li>  
  <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, John C.S. Lui, and Jingzhao Zhang,
 <i> Optimal Convex Optimization with Inexact Second-Order Oracles </i>, arXiv preprint. <a href="https://arxiv.org/abs/2607.24520">[arXiv 2026]</a>
