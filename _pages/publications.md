@@ -48,13 +48,12 @@ I have broad interests in modern optimization theory, with a particular focus on
 
 <h2> Research Highlights </h2>
 <ol class="custom-ol">
-<li> Second-Order Minimax Optimization <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides in SIAM OP 26]</a> <span class="detail-toggle" id="btn-detail-1" onclick="toggleDetail('detail-1')">[Expand]</span> <br>
+<li> Second-Order Minimax Optimization <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides in SIAM OP 26]</a> 
  Upper Bound: $\tilde{\mathcal{O}}(1/T^{1.75})$ <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> $\to$ $\tilde{\mathcal{O}}(1/T^{2})$  <a href="https://arxiv.org/abs/2608.08463">[arXiv 2026]</a> <br>
  Lower Bound: $\Omega(1/T^{2.5})$ <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a>
- 
+<span class="detail-toggle" id="btn-detail-1" onclick="toggleDetail('detail-1')">[Expand]</span> <br>
  <div id="detail-1" class="detail-image-container">
-   <!-- 请将 src 替换为你的实际图片路径或 URL -->
-   <img src="/images/research/minimax.jpg" alt="Second-Order Minimax Optimization Detail">
+   <img src="/images/research/Minimax.png" alt="Second-Order Minimax Optimization Detail">
  </div>
 </li>
 
@@ -63,8 +62,7 @@ I have broad interests in modern optimization theory, with a particular focus on
  Lower Bound: $\Omega(\kappa^{2.5} \epsilon^{-2} + \sigma^2 \kappa^{4.5} \epsilon^{-4})$ <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> 
  
  <div id="detail-2" class="detail-image-container">
-   <!-- 请将 src 替换为你的实际图片路径或 URL -->
-   <img src="/images/bilevel_detail.png" alt="Bilevel Optimization Detail">
+   <img src="/images/research/Bilevel.png" alt="Bilevel Optimization Detail">
  </div>
 </li>
 </ol>
