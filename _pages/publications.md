@@ -54,7 +54,7 @@ I have broad interests in modern optimization theory, with a particular focus on
  
  <div id="detail-1" class="detail-image-container">
    <!-- 请将 src 替换为你的实际图片路径或 URL -->
-   <img src="/images/research/minimax_jpg" alt="Second-Order Minimax Optimization Detail">
+   <img src="/images/research/minimax.jpg" alt="Second-Order Minimax Optimization Detail">
  </div>
 </li>
 
