@@ -65,8 +65,6 @@ I have broad interests in modern optimization theory, with a particular focus on
 </li>
 </ol>
 
-<!-- A list of open problems is maintained <a href="https://truenobility303.github.io/openproblems/">here</a>. -->
-
 <h2> Working Papers </h2>
 <ol class="custom-ol">
 <font size="3">  
@@ -91,7 +89,6 @@ Preliminary version in Conference on Learning Theory. <b>(Best Student Paper, 2/
 
 <!-- <sup>1</sup> indicates co-first-authors. -->
 
-The conference and journal publications that have overlapped are grouped into one item.
 <ol class="custom-ol">
 <font size="3">      
  <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
