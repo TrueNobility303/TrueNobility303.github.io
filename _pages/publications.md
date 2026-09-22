@@ -49,16 +49,16 @@ I have broad interests in modern optimization theory, with a particular focus on
 <h2> Research Highlights </h2>
 <ol class="custom-ol">
 <li> Second-Order Minimax Optimization <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides in SIAM OP 26]</a> <span class="detail-toggle" id="btn-detail-1" onclick="toggleDetail('detail-1')">[Expand]</span> <br>
- Upper Bound: $\tilde{\mathcal{O}}(1/T^{1.75})$ <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> $\to$ $\tilde{\mathcal{O}}(1/T^{2})$  <a href="https://arxiv.org/abs/2608.08463">[arXiv 2026]</a> <br>
- Lower Bound: $\Omega(1/T^{2.5})$ <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a> 
+ Upper Bound: <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> <a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a> <br>
+ Lower Bound: <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a> 
  <div id="detail-1" class="detail-image-container">
    <img src="/images/research/Minimax.png" alt="Second-Order Minimax Optimization Detail">
  </div>
 </li>
 
 <li> Bilevel Optimization <a href="https://drive.google.com/file/d/1lghkhCXdDP9IQWwBK_E_sfCjokgFlrGu/view?usp=sharing">[Slides in SIAM OP 26]</a> <span class="detail-toggle" id="btn-detail-2" onclick="toggleDetail('detail-2')">[Expand]</span> <br>
- Upper Bound: $\tilde{\mathcal{O}}(\kappa^{3.5} \epsilon^{-2} + \sigma^2 \kappa^{11} \epsilon^{-6})$ <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> <br>
- Lower Bound: $\Omega(\kappa^{2.5} \epsilon^{-2} + \sigma^2 \kappa^{4.5} \epsilon^{-4})$ <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> 
+ Upper Bound: <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> <br>
+ Lower Bound: <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> 
  <div id="detail-2" class="detail-image-container">
    <img src="/images/research/Bilevel.png" alt="Bilevel Optimization Detail">
  </div>
@@ -68,6 +68,8 @@ I have broad interests in modern optimization theory, with a particular focus on
 <h2> Working Papers </h2>
 <ol class="custom-ol">
 <font size="3">  
+<li><p> Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Linxuan Pan<sup>1</sup>, Chengchang Liu, Junchi Yang, Jingzhao Zhang, <i> Optimal High-Order Methods for Solving Monotone Variational Inequalities </i>, arXiv preprint. <a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a> 
+</p></li>
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Xinliang Zhang <sup>1</sup>, Junru Li, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/(3p+1)})$ pth-Order Oracle Complexity</i>,  arXiv preprint. <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a> <br>
 Preliminary version in Conference on Learning Theory. <b>(Best Student Paper, 2/556) </b> <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> ⭐ 
 </p></li> 
