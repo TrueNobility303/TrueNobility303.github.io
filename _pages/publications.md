@@ -52,7 +52,7 @@ I have broad interests in modern optimization theory, with a particular focus on
  Upper Bound: <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> <a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a> <br>
  Lower Bound: <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a> 
  <div id="detail-1" class="detail-image-container">
-   <img src="/images/research/Minimax.png" alt="Second-Order Minimax Optimization Detail">
+   <img src="/images/research/Minimax.jpg" alt="Second-Order Minimax Optimization Detail">
  </div>
 </li>
 
@@ -60,7 +60,7 @@ I have broad interests in modern optimization theory, with a particular focus on
  Upper Bound: <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> <br>
  Lower Bound: <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> 
  <div id="detail-2" class="detail-image-container">
-   <img src="/images/research/Bilevel.png" alt="Bilevel Optimization Detail">
+   <img src="/images/research/Bilevel.jpg" alt="Bilevel Optimization Detail">
  </div>
 </li>
 </ol>
