@@ -68,7 +68,7 @@ I have broad interests in modern optimization theory, with a particular focus on
 <h2> Working Papers </h2>
 <ol class="custom-ol">
 <font size="3">  
-<li><p> Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Linxuan Pan<sup>1</sup>, Chengchang Liu, Junchi Yang, Jingzhao Zhang, <i> Optimal High-Order Methods for Solving Monotone Variational Inequalities </i>, arXiv preprint. <a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a> 
+<li><p> Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Linxuan Pan<sup>1</sup>, Chengchang Liu, Junchi Yang, Jingzhao Zhang, <i> Optimal High-Order Methods for Solving Monotone Variational Inequalities</i>, arXiv preprint. <a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a> 
 </p></li>
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Xinliang Zhang <sup>1</sup>, Junru Li, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/(3p+1)})$ pth-Order Oracle Complexity</i>,  arXiv preprint. <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a> <br>
 Preliminary version in Conference on Learning Theory. <b>(Best Student Paper, 2/556) </b> <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> ⭐ 
