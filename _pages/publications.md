@@ -60,7 +60,7 @@ I have broad interests in modern optimization theory, with a particular focus on
 
 <h2> Research Highlights </h2>
 <div class="highlight-box">
-   Provides (near-)optimal algorithms and matching lower bounds with respect to target precision $\epsilon$.
+   Provides (near-)optimal algorithms and matching lower bounds on target precision $\epsilon$.
  </div>
 <ol class="custom-ol">
 <li> Second-Order Minimax Optimization <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides in SIAM OP 26]</a> <span class="detail-toggle" id="btn-detail-1" onclick="toggleDetail('detail-1')">[Expand]</span> <br>
