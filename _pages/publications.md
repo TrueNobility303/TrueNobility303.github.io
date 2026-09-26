@@ -28,6 +28,18 @@ author_profile: true
     border-radius: 6px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
+  .highlight-box {
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+    font-size: 0.9em;
+    color: #24292e;
+    line-height: 1.5;
+  }
 </style>
 
 <script>
@@ -47,6 +59,9 @@ author_profile: true
 I have broad interests in modern optimization theory, with a particular focus on game-structure optimization. In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in this area, such as the oracle complexity of convex, nonconvex, minimax, and bilevel optimization.
 
 <h2> Research Highlights </h2>
+<div class="highlight-box">
+   Provides (near-)optimal algorithms and matching lower bounds with respect to target precision $\epsilon$.
+ </div>
 <ol class="custom-ol">
 <li> Second-Order Minimax Optimization <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides in SIAM OP 26]</a> <span class="detail-toggle" id="btn-detail-1" onclick="toggleDetail('detail-1')">[Expand]</span> <br>
  Upper Bound: <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> <a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a> <br>
