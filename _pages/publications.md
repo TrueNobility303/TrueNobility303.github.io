@@ -83,7 +83,7 @@ I have broad interests in modern optimization theory, with a particular focus on
 <h2> Working Papers </h2>
 <ol class="custom-ol">
 <font size="3">  
-<li><p> Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu, Jingzhao Zhang, <i> Near-Optimal Convex Optimization withLazy Second-Order Oracles</i>, arXiv preprint. <a href="https://arxiv.org/abs/2610.03222">[arXiv 2026]</a> 
+<li><p> Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu, Jingzhao Zhang, <i> Near-Optimal Convex Optimization with Lazy Second-Order Oracles</i>, arXiv preprint. <a href="https://arxiv.org/abs/2610.03222">[arXiv 2026]</a> 
 </p></li>
 <li><p> Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Linxuan Pan<sup>1</sup>, Chengchang Liu, Junchi Yang, Jingzhao Zhang, <i> Optimal High-Order Methods for Solving Monotone Variational Inequalities</i>, arXiv preprint. <a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a> 
 </p></li>
