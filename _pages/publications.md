@@ -84,7 +84,7 @@ I have broad interests in modern optimization theory, with a particular focus on
 <ol class="custom-ol">
 <font size="3">  
 
-<li><p> Qihao Zhang <sup>1</sup>, <b> Lesi Chen <sup>1</sup> </b>, Luo Luo, Chengchang Liu, <i> Envelope Cubic Regularized Newton Method for Nonconvex-Strongly-Concave Minimax Optimization </i>, arXiv preprint. <a href="https://arxiv.org/abs/2610.20345">[arXiv 2026]</a>
+<li><p> Qihao Zhou <sup>1</sup>, <b> Lesi Chen <sup>1</sup> </b>, Luo Luo, Chengchang Liu, <i> Envelope Cubic Regularized Newton Method for Nonconvex-Strongly-Concave Minimax Optimization </i>, arXiv preprint. <a href="https://arxiv.org/abs/2610.20345">[arXiv 2026]</a>
 </p></li>
 <li><p> Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu, Jingzhao Zhang, <i> Near-Optimal Convex Optimization with Lazy Second-Order Oracles</i>, arXiv preprint. <a href="https://arxiv.org/abs/2610.03222">[arXiv 2026]</a> 
 </p></li>
