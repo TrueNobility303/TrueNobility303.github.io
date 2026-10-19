@@ -60,8 +60,8 @@ I have broad interests in modern optimization theory, with a particular focus on
 
 <h2> Research Highlights </h2>
 <div class="highlight-box">
-   Provides (near-)optimal algorithms and matching lower bounds on target precision $\epsilon$.
- </div>
+    Provides (near-)optimal algorithms and matching lower bounds on target precision $\epsilon$.
+  </div>
 <ol class="custom-ol">
 <li> Second-Order Minimax Optimization <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides in SIAM OP 26]</a> <span class="detail-toggle" id="btn-detail-1" onclick="toggleDetail('detail-1')">[Expand]</span> <br>
  Upper Bound: <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> <a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a> <br>
@@ -97,8 +97,8 @@ I have broad interests in modern optimization theory, with a particular focus on
 <ol class="custom-ol">
 <font size="3">  
 
-<li><p> <b>Lesi Chen<sup>1</sup></b>, Xinliang Zhang <sup>1</sup>, Junru Li, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/(3p+1)})$ pth-Order Oracle Complexity</i>,  arXiv preprint. <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a> <br>
-Preliminary version in Conference on Learning Theory. <b>(Best Student Paper, 2/556) </b> <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> ⭐ 
+<!-- Working Paper 1: p-th order extension with id="extension-paper" -->
+<li id="extension-paper"><p> <b>Lesi Chen<sup>1</sup></b>, Xinliang Zhang <sup>1</sup>, Junru Li, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/(3p+1)})$ pth-Order Oracle Complexity</i>,  arXiv preprint. <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a> [Extension of <a href="#colt2025-paper">COLT 2025 below</a>]
 </p></li> 
  <li><p>
 <b>Lesi Chen<sup>1</sup> </b>, Kaiyi Ji <sup>1</sup>, and Jingzhao Zhang, <i>On the Condition Number Dependency in Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a> ⭐
@@ -115,40 +115,46 @@ Preliminary version in Conference on Learning Theory. <b>(Best Student Paper, 2/
 <!-- <sup>1</sup> indicates co-first-authors. -->
 
 <ol class="custom-ol">
-<font size="3">      
- <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
+<font size="3">       
+<li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
 <i> Faster Newton Methods for Convex and Nonconvex Optimization in Gradient Complexity </i>, in Conference on Learning Theory.
  <a href="https://arxiv.org/abs/2501.17488">[COLT 2026]</a> ⭐
 </p></li>
-<li><p> 
-<b>Lesi Chen</b>, Junru Li, El Mahdi Chayti and Jingzhao Zhang, <i> Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization</i>, in International Conference on Learning Representations. <a href="https://arxiv.org/abs/2509.02937">[ICLR 2026]</a> 
+<li><p>  
+<b>Lesi Chen</b>, Junru Li, El Mahdi Chayti and Jingzhao Zhang, <i> Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization</i>, in International Conference on Learning Representations. <a href="https://arxiv.org/abs/2509.02937">[ICLR 2026]</a>  
 </p>
 </li>
 <li><p> <b>Lesi Chen<sup>1</sup></b>, Yaohua Ma<sup>1</sup>, and Jingzhao Zhang,
- <i> Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles </i>, Journal of Machine Learning Research, 1-56. 
+ <i> Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles </i>, Journal of Machine Learning Research, 1-56.  
  <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> ⭐ <br>
  </p></li>
-<li><p> <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu<sup>1</sup>, and Jingzhao Zhang,  <i> Second-Order Min-Max Optimization with Lazy Hessians</i>, in International Conference on  Learning Representations. <b>(Oral, <2%) </b>   <a href="https://arxiv.org/abs/2410.09568">[ICLR 2025]</a> 
+ 
+<!-- COLT 2025 paper with id="colt2025-paper" -->
+<li id="colt2025-paper"><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
+<i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ pth-Order Oracle Complexity</i>, in Conference on Learning Theory.
+<b>(Best Student Paper, 2/556) </b> <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> [Extension <a href="#extension-paper">available above</a>]  ⭐  
 </p></li>
-<li><p> <b>Lesi Chen</b> and Luo Luo, <i> Near-Optimal Algorithms for Making the Gradient Small in Stochastic Minimax Optimization</i>, Journal of Machine Learning Research, 1-44. 
+<li><p> <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu<sup>1</sup>, and Jingzhao Zhang,  <i> Second-Order Min-Max Optimization with Lazy Hessians</i>, in International Conference on  Learning Representations. <b>(Oral, <2%) </b>    <a href="https://arxiv.org/abs/2410.09568">[ICLR 2025]</a>  
+</p></li>
+<li><p> <b>Lesi Chen</b> and Luo Luo, <i> Near-Optimal Algorithms for Making the Gradient Small in Stochastic Minimax Optimization</i>, Journal of Machine Learning Research, 1-44.  
  <a href="https://arxiv.org/abs/2208.05925">[JMLR 2024]</a>
 </p></li> 
 <li><p> Huaqing Zhang<sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Jing Xu, and Jingzhao Zhang, <i>
  Functionally Constrained Algorithm Solves Convex Simple Bilevel Problems</i>, in Conference on Neural Information Processing Systems. <br>
  <a href="https://arxiv.org/abs/2409.06530">[NeurIPS 2024]</a>
  </p></li>
- <li> <p>
+  <li> <p>
 <b>Lesi Chen<sup>1</sup></b>, Jing Xu<sup>1</sup>, and Jingzhao Zhang, <i> On Finding Small Hyper-Gradients in Bilevel Optimization: Hardness Results and Improved Analysis</i>, in Conference on Learning Theory. 
-<a href="https://arxiv.org/abs/2301.00712">[COLT 2024]</a> 
-  </p> </li>
+<a href="https://arxiv.org/abs/2301.00712">[COLT 2024]</a>  
+ </p> </li>
 <li><p> <b>Lesi Chen</b>, Jing Xu, and Luo Luo, <i> Faster Gradient-Free Algorithms for Nonsmooth Nonconvex Stochastic Optimization</i>,
- in International Conference on Machine Learning. 
+ in International Conference on Machine Learning.  
   <a href="https://arxiv.org/abs/2301.06428"> [ICML 2023]</a>
  </p> </li>
-<li><p>  <b>Lesi Chen</b>, Boyuan Yao, and Luo Luo, <i> Faster Stochastic Algorithms for Minimax Optimization under Polyak-Łojasiewicz Condition</i>, 
+<li><p>  <b>Lesi Chen</b>, Boyuan Yao, and Luo Luo, <i> Faster Stochastic Algorithms for Minimax Optimization under Polyak-Łojasiewicz Condition</i>,  
  in Conference on Neural Information Processing Systems.
   <a href="https://arxiv.org/abs/2307.15868"> [NeurIPS 2022]</a>
- </p> </li>
+ </p></li>
 </font>
 </ol>
 
