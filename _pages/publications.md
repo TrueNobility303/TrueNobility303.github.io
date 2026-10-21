@@ -104,6 +104,9 @@ I have broad interests in modern optimization theory, with a particular focus on
  <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, John C.S. Lui, and Jingzhao Zhang,
 <i> Optimal Convex Optimization with Inexact Second-Order Oracles </i>, arXiv preprint. <a href="https://arxiv.org/abs/2607.24520">[arXiv 2026]</a>
 </p></li>
+ <li><p>
+<b>Lesi Chen<sup>1</sup> </b>, Kaiyi Ji <sup>1</sup>, and Jingzhao Zhang, <i>On the Condition Number Dependency in Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2511.22331">[arXiv 2026]</a> ⭐
+</p></li>  
 </font>
 </ol>
 
@@ -114,9 +117,6 @@ I have broad interests in modern optimization theory, with a particular focus on
 
 <ol class="custom-ol">
 <font size="3">       
- <li><p>
-<b>Lesi Chen<sup>1</sup> </b>, Kaiyi Ji <sup>1</sup>, and Jingzhao Zhang, <i>On the Condition Number Dependency in Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2511.22331">[JMLR 2026]</a> ⭐
-</p></li>  
 <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
 <i> Faster Newton Methods for Convex and Nonconvex Optimization in Gradient Complexity </i>, in Conference on Learning Theory.
  <a href="https://arxiv.org/abs/2501.17488">[COLT 2026]</a> ⭐
