@@ -110,7 +110,6 @@ author_profile: true
   }
 </script>
 
-I have broad interests in modern optimization theory, with a particular focus on game-structure optimization. In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in this area, such as the oracle complexity of convex, nonconvex, minimax, and bilevel optimization.
 
 
 <h2> Publications </h2>
