@@ -115,18 +115,17 @@ I have broad interests in modern optimization theory, with a particular focus on
 
 <h2> Publications </h2>
 
-<!-- 选项卡按钮区 -->
+<!-- 选项卡按钮区（已为 ALL 按钮正确绑定点击事件） -->
 <div class="pub-tabs">
   <button class="pub-tab-btn active" onclick="switchTab(event, 'tab-highlighted')">HIGHLIGHTED</button>
   <button class="pub-tab-btn" onclick="switchTab(event, 'tab-all')">ALL</button>
 </div>
 
-<!-- HIGHLIGHTED 标签页内容：你可以在这里填入重点精选论文 -->
+<!-- HIGHLIGHTED 标签页内容：展示核心方向、精选框图与最新 AI 辅助探索代表作 -->
 <div id="tab-highlighted" class="pub-tab-content active">
 
 <h3> Theory of Game-Structured Optimization </h3>
-<div class="highlight-box">
-    Provides (near-)optimal algorithms and matching lower bounds on target precision $\epsilon$.
+My series of work provides (near-)optimal algorithms and matching lower bounds on target precision $\epsilon$.
   </div>
 <ol class="custom-ol">
 <li> Second-Order Minimax Optimization <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides in SIAM OP 26]</a> <span class="detail-toggle" id="btn-detail-1" onclick="toggleDetail('detail-1')">[Expand]</span> <br>
@@ -147,9 +146,7 @@ I have broad interests in modern optimization theory, with a particular focus on
 </ol>
 
 <h3> AI for Optimization </h3>
-<div class="highlight-box">
 I've been exploring these questions for more than one year, and I'm excited to see them fully resolved under the assistance of GPT.
-  </div>
 <ol class="custom-ol">
 <font size="3">  
 <li><p> Qihao Zhou <sup>1</sup>, <b> Lesi Chen <sup>1</sup> </b>, Luo Luo, Chengchang Liu, <i> Envelope Cubic Regularized Newton Method for Nonconvex-Strongly-Concave Minimax Optimization </i>, arXiv preprint. <a href="https://arxiv.org/abs/2610.20345">[arXiv 2026]</a>
@@ -162,10 +159,10 @@ I've been exploring these questions for more than one year, and I'm excited to s
 </ol>
 </div>
 
-<!-- ALL 标签页内容：展示你所有的全部论文（即你原本列表里的全部） -->
+<!-- ALL 标签页内容：展示完整的全部论文列表 -->
 <div id="tab-all" class="pub-tab-content">
-
-<h3> Featured Publications </h3>
+<p>See <a href="https://scholar.google.com/citations?user=ynGzhugAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> for a complete list.</p>
+<h3> Featured & All Publications </h3>
 <ol class="custom-ol">
 <font size="3">        
 <!-- Working Paper 1: p-th order extension with id="extension-paper" -->
@@ -195,7 +192,7 @@ I've been exploring these questions for more than one year, and I'm excited to s
 <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ pth-Order Oracle Complexity</i>, in Conference on Learning Theory.
 <b>(Best Student Paper, 2/556) </b> <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> [Extension <a href="#extension-paper">available above</a>]  ⭐  
 </p></li>
-<li><p> <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu<sup>1</sup>, and Jingzhao Zhang,  <i> Second-Order Min-Max Optimization with Lazy Hessians</i>, in International Conference on  Learning Representations. <b>(Oral, <2%) </b>     <a href="https://arxiv.org/abs/2410.09568">[ICLR 2025]</a>  
+<li><p> <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu<sup>1</sup>, and Jingzhao Zhang,  <i> Second-Order Min-Max Optimization with Lazy Hessians</i>, in International Conference on  Learning Representations. <b>(Oral, <2%) </b>      <a href="https://arxiv.org/abs/2410.09568">[ICLR 2025]</a>  
 </p></li>
 <li><p> <b>Lesi Chen</b> and Luo Luo, <i> Near-Optimal Algorithms for Making the Gradient Small in Stochastic Minimax Optimization</i>, Journal of Machine Learning Research, 1-44.  
  <a href="https://arxiv.org/abs/2208.05925">[JMLR 2024]</a>
@@ -219,5 +216,3 @@ I've been exploring these questions for more than one year, and I'm excited to s
 </font>
 </ol>
 </div>
-
-See [Google Scholar](https://scholar.google.com/citations?user=ynGzhugAAAAJ&hl=en&oi=ao) for a complete list.
