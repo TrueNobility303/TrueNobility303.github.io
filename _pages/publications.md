@@ -254,7 +254,7 @@ author_profile: true
 
     <h2>AI for Optimization</h2>
 
-    I've been exploring these questions for more than one year, and I'm excited to see them fully resolved under the assistance of GPT.
+    I've been exploring these questions for more than one year, and I'm excited to see them fully resolved with the assistance of GPT. <a href="https://github.com/AI4Optimization/ai-for-optimization">[Github Repo]</a>
 
     <ol class="custom-ol">
 
