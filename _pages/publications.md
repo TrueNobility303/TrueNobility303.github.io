@@ -111,9 +111,6 @@ author_profile: true
 </script>
 
 
-
-<h2> Publications </h2>
-
 <!-- 选项卡按钮区（已为 ALL 按钮正确绑定点击事件） -->
 <div class="pub-tabs">
   <button class="pub-tab-btn active" onclick="switchTab(event, 'tab-highlighted')">HIGHLIGHTED</button>
@@ -123,9 +120,8 @@ author_profile: true
 <!-- HIGHLIGHTED 标签页内容：展示核心方向、精选框图与最新 AI 辅助探索代表作 -->
 <div id="tab-highlighted" class="pub-tab-content active">
 
-<h3> Theory of Game-Structured Optimization </h3>
-My series of work provides (near-)optimal algorithms and matching lower bounds on target precision $\epsilon$.
-  </div>
+<h2> Theory of Game-Structured Optimization </h2>
+My series of work provides (near-)optimal algorithms and matching lower bounds on target precision $\epsilon$ for solving game-structured optimization such as minimax and bilevel optimization.
 <ol class="custom-ol">
 <li> Second-Order Minimax Optimization <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides in SIAM OP 26]</a> <span class="detail-toggle" id="btn-detail-1" onclick="toggleDetail('detail-1')">[Expand]</span> <br>
  Upper Bound: <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> <a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a> <br>
@@ -144,7 +140,7 @@ My series of work provides (near-)optimal algorithms and matching lower bounds o
 </li>
 </ol>
 
-<h3> AI for Optimization </h3>
+<h2> AI for Optimization </h2>
 I've been exploring these questions for more than one year, and I'm excited to see them fully resolved under the assistance of GPT.
 <ol class="custom-ol">
 <font size="3">  
@@ -160,8 +156,8 @@ I've been exploring these questions for more than one year, and I'm excited to s
 
 <!-- ALL 标签页内容：展示完整的全部论文列表 -->
 <div id="tab-all" class="pub-tab-content">
+<h3> Featured Publications </h3>
 <p>See <a href="https://scholar.google.com/citations?user=ynGzhugAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> for a complete list.</p>
-<h3> Featured & All Publications </h3>
 <ol class="custom-ol">
 <font size="3">        
 <!-- Working Paper 1: p-th order extension with id="extension-paper" -->
