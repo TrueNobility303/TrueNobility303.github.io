@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research"
+title: "Featured Publications"
 permalink: /publications/
 author_profile: true
 ---
@@ -300,13 +300,8 @@ author_profile: true
 
 <div id="tab-all" class="pub-tab-content">
 
-<h3>Featured Publications</h3>
 
-<p>
-See
-<a href="https://scholar.google.com/citations?user=ynGzhugAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-for a complete list.
-</p>
+
 
 <ol class="custom-ol">
 
@@ -452,4 +447,9 @@ in Conference on Neural Information Processing Systems.
 </font>
 </ol>
 
+<p>
+See
+<a href="https://scholar.google.com/citations?user=ynGzhugAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+for a complete list.
+</p>
 </div>
