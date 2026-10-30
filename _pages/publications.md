@@ -237,59 +237,53 @@ author_profile: true
 
     <ol class="custom-ol">
 
-      <li>
-        Second-Order Minimax Optimization
-        <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides in SIAM OP 26]</a>
+<li>
+  Second-Order Minimax Optimization
+  <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides in SIAM OP 26]</a>
 
-        <details class="detail-disclosure">
-          <summary class="detail-toggle">
-            <span class="expand-label">[Expand]</span>
-            <span class="hide-label">[Hide]</span>
-          </summary>
+  <details class="detail-disclosure">
+    <summary class="detail-toggle">
+      <span class="expand-label">[Expand]</span>
+      <span class="hide-label">[Hide]</span>
+    </summary>
 
-          <div class="detail-image-container">
-            <img src="/images/research/Minimax.jpg" alt="Second-Order Minimax Optimization Detail">
-          </div>
-        </details>
+    <div class="detail-image-container">
+      <img src="/images/research/Minimax.jpg" alt="Second-Order Minimax Optimization Detail">
+    </div>
+  </details>
 
-        <br>
+  Upper Bound:
+  <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a>
+  <a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a>
+  <br>
 
-        Upper Bound:
-        <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a>
-        <a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a>
-
-        <br>
-
-        Lower Bound:
-        <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a>
-      </li>
+  Lower Bound:
+  <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a>
+</li>
 
 
-      <li>
-        Bilevel Optimization
-        <a href="https://drive.google.com/file/d/1lghkhCXdDP9IQWwBK_E_sfCjokgFlrGu/view?usp=sharing">[Slides in SIAM OP 26]</a>
+<li>
+  Bilevel Optimization
+  <a href="https://drive.google.com/file/d/1lghkhCXdDP9IQWwBK_E_sfCjokgFlrGu/view?usp=sharing">[Slides in SIAM OP 26]</a>
 
-        <details class="detail-disclosure">
-          <summary class="detail-toggle">
-            <span class="expand-label">[Expand]</span>
-            <span class="hide-label">[Hide]</span>
-          </summary>
+  <details class="detail-disclosure">
+    <summary class="detail-toggle">
+      <span class="expand-label">[Expand]</span>
+      <span class="hide-label">[Hide]</span>
+    </summary>
 
-          <div class="detail-image-container">
-            <img src="/images/research/Bilevel.jpg" alt="Bilevel Optimization Detail">
-          </div>
-        </details>
+    <div class="detail-image-container">
+      <img src="/images/research/Bilevel.jpg" alt="Bilevel Optimization Detail">
+    </div>
+  </details>
 
-        <br>
+  Upper Bound:
+  <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a>
+  <br>
 
-        Upper Bound:
-        <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a>
-
-        <br>
-
-        Lower Bound:
-        <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a>
-      </li>
+  Lower Bound:
+  <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a>
+</li>
 
     </ol>
 
