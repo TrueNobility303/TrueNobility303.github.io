@@ -40,6 +40,46 @@ author_profile: true
     color: #24292e;
     line-height: 1.5;
   }
+
+  /* 选项卡 (Tabs) 样式 - 与整体极简风格保持一致 */
+  .pub-tabs {
+    display: flex;
+    gap: 8px;
+    border-bottom: 1px solid #d1d5da;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  .pub-tab-btn {
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-bottom: none;
+    padding: 8px 18px;
+    font-size: 0.85em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #586069;
+    cursor: pointer;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    transition: all 0.2s ease;
+    outline: none;
+  }
+  .pub-tab-btn:hover {
+    color: #24292e;
+    background-color: #e1e4e8;
+  }
+  .pub-tab-btn.active {
+    background-color: #ffffff;
+    color: #24292e;
+    border-bottom: 2px solid #ffffff; /* 盖住底边线 */
+    margin-bottom: -1px;
+  }
+  .pub-tab-content {
+    display: none;
+  }
+  .pub-tab-content.active {
+    display: block;
+  }
 </style>
 
 <script>
@@ -54,11 +94,37 @@ author_profile: true
       btn.innerText = "[Hide]";
     }
   }
+
+  // 选项卡切换逻辑
+  function switchTab(evt, tabId) {
+    var contents = document.getElementsByClassName("pub-tab-content");
+    for (var i = 0; i < contents.length; i++) {
+      contents[i].classList.remove("active");
+    }
+    var buttons = document.getElementsByClassName("pub-tab-btn");
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].classList.remove("active");
+    }
+    document.getElementById(tabId).classList.add("active");
+    evt.currentTarget.classList.add("active");
+  }
 </script>
 
 I have broad interests in modern optimization theory, with a particular focus on game-structure optimization. In my representative work ⭐, I have collaborated with my excellent coauthors to solve many fundamental problems in this area, such as the oracle complexity of convex, nonconvex, minimax, and bilevel optimization.
 
-<h2> Research Highlights </h2>
+
+<h2> Publications </h2>
+
+<!-- 选项卡按钮区 -->
+<div class="pub-tabs">
+  <button class="pub-tab-btn active" onclick="switchTab(event, 'tab-highlighted')">HIGHLIGHTED</button>
+  <button class="pub-tab-btn" onclick="switchTab(event, 'tab-all')">ALL</button>
+</div>
+
+<!-- HIGHLIGHTED 标签页内容：你可以在这里填入重点精选论文 -->
+<div id="tab-highlighted" class="pub-tab-content active">
+
+<h3> Theory of Game-Structured Optimization </h3>
 <div class="highlight-box">
     Provides (near-)optimal algorithms and matching lower bounds on target precision $\epsilon$.
   </div>
@@ -80,10 +146,12 @@ I have broad interests in modern optimization theory, with a particular focus on
 </li>
 </ol>
 
-<h2> AI-Assisted Papers </h2>
+<h3> AI for Optimization </h3>
+<div class="highlight-box">
+I've been exploring these questions for more than one year, and I'm excited to see them fully resolved under the assistance of GPT.
+  </div>
 <ol class="custom-ol">
 <font size="3">  
-
 <li><p> Qihao Zhou <sup>1</sup>, <b> Lesi Chen <sup>1</sup> </b>, Luo Luo, Chengchang Liu, <i> Envelope Cubic Regularized Newton Method for Nonconvex-Strongly-Concave Minimax Optimization </i>, arXiv preprint. <a href="https://arxiv.org/abs/2610.20345">[arXiv 2026]</a>
 </p></li>
 <li><p> Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu, Jingzhao Zhang, <i> Near-Optimal Convex Optimization with Lazy Second-Order Oracles</i>, arXiv preprint. <a href="https://arxiv.org/abs/2610.03222">[arXiv 2026]</a> 
@@ -92,11 +160,14 @@ I have broad interests in modern optimization theory, with a particular focus on
 </p></li>
 </font>
 </ol>
+</div>
 
-<h2> Working Papers </h2>
+<!-- ALL 标签页内容：展示你所有的全部论文（即你原本列表里的全部） -->
+<div id="tab-all" class="pub-tab-content">
+
+<h3> Featured Publications </h3>
 <ol class="custom-ol">
-<font size="3">  
-
+<font size="3">        
 <!-- Working Paper 1: p-th order extension with id="extension-paper" -->
 <li id="extension-paper"><p> <b>Lesi Chen<sup>1</sup></b>, Xinliang Zhang <sup>1</sup>, Junru Li, Chengchang Liu, Luo Luo, and Jingzhao Zhang,  <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/(3p+1)})$ pth-Order Oracle Complexity</i>,  arXiv preprint. <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a> 
 <br>  [Extension of <a href="#colt2025-paper">COLT 2025 below</a>]
@@ -107,16 +178,6 @@ I have broad interests in modern optimization theory, with a particular focus on
  <li><p>
 <b>Lesi Chen<sup>1</sup> </b>, Kaiyi Ji <sup>1</sup>, and Jingzhao Zhang, <i>On the Condition Number Dependency in Bilevel Optimization</i>, arXiv preprint. <a href="https://arxiv.org/abs/2511.22331">[arXiv 2026]</a> ⭐
 </p></li>  
-</font>
-</ol>
-
- 
-<h2> Featured Publications </h2>
-
-<!-- <sup>1</sup> indicates co-first-authors. -->
-
-<ol class="custom-ol">
-<font size="3">       
 <li><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
 <i> Faster Newton Methods for Convex and Nonconvex Optimization in Gradient Complexity </i>, in Conference on Learning Theory.
  <a href="https://arxiv.org/abs/2501.17488">[COLT 2026]</a> ⭐
@@ -130,12 +191,11 @@ I have broad interests in modern optimization theory, with a particular focus on
  <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a> ⭐ <br>
  </p></li>
  
-<!-- COLT 2025 paper with id="colt2025-paper" -->
 <li id="colt2025-paper"><p>  <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
 <i> Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ pth-Order Oracle Complexity</i>, in Conference on Learning Theory.
 <b>(Best Student Paper, 2/556) </b> <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> [Extension <a href="#extension-paper">available above</a>]  ⭐  
 </p></li>
-<li><p> <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu<sup>1</sup>, and Jingzhao Zhang,  <i> Second-Order Min-Max Optimization with Lazy Hessians</i>, in International Conference on  Learning Representations. <b>(Oral, <2%) </b>    <a href="https://arxiv.org/abs/2410.09568">[ICLR 2025]</a>  
+<li><p> <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu<sup>1</sup>, and Jingzhao Zhang,  <i> Second-Order Min-Max Optimization with Lazy Hessians</i>, in International Conference on  Learning Representations. <b>(Oral, <2%) </b>     <a href="https://arxiv.org/abs/2410.09568">[ICLR 2025]</a>  
 </p></li>
 <li><p> <b>Lesi Chen</b> and Luo Luo, <i> Near-Optimal Algorithms for Making the Gradient Small in Stochastic Minimax Optimization</i>, Journal of Machine Learning Research, 1-44.  
  <a href="https://arxiv.org/abs/2208.05925">[JMLR 2024]</a>
@@ -158,5 +218,6 @@ I have broad interests in modern optimization theory, with a particular focus on
  </p></li>
 </font>
 </ol>
+</div>
 
 See [Google Scholar](https://scholar.google.com/citations?user=ynGzhugAAAAJ&hl=en&oi=ao) for a complete list.
