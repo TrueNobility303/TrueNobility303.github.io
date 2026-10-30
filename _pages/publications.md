@@ -199,7 +199,7 @@ author_profile: true
 
   <div id="tab-highlighted" class="pub-tab-content">
 
-    <h2>Theory of Game-Structured Optimization</h2>
+    <h2>Optimization Theory</h2>
 
     My series of work provides (near-)optimal algorithms and matching lower bounds on target precision $\epsilon$ for solving game-structured optimization such as minimax and bilevel optimization.
 
