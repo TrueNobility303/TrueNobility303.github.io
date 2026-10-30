@@ -51,17 +51,51 @@ author_profile: true
     margin-bottom: 12px;
   }
 
-  .detail-disclosure[open] .detail-image-container {
-    display: block;
-  }
+.detail-disclosure {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
 
-  .detail-image-container img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
+.detail-disclosure summary {
+  display: inline;
+  list-style: none;
+  cursor: pointer;
+}
+
+.detail-disclosure summary::-webkit-details-marker {
+  display: none;
+}
+
+.detail-disclosure .hide-label {
+  display: none;
+}
+
+.detail-disclosure[open] .expand-label {
+  display: none;
+}
+
+.detail-disclosure[open] .hide-label {
+  display: inline;
+}
+
+.detail-image-container {
+  display: none;
+  margin: 8px 0 0 0;
+  padding: 0;
+}
+
+.detail-disclosure[open] .detail-image-container {
+  display: block;
+}
+
+.detail-image-container img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
   .highlight-box {
     background-color: #f6f8fa;
