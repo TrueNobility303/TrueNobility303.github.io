@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 <style>
+  /* Publication detail disclosure */
   .detail-toggle {
     color: #0366d6;
     cursor: pointer;
@@ -18,10 +19,40 @@ author_profile: true
     color: #0056b3;
   }
 
+  .detail-disclosure {
+    display: inline;
+  }
+
+  .detail-disclosure summary {
+    display: inline;
+    list-style: none;
+    cursor: pointer;
+  }
+
+  .detail-disclosure summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .detail-disclosure .hide-label {
+    display: none;
+  }
+
+  .detail-disclosure[open] .expand-label {
+    display: none;
+  }
+
+  .detail-disclosure[open] .hide-label {
+    display: inline;
+  }
+
   .detail-image-container {
     display: none;
     margin-top: 8px;
     margin-bottom: 12px;
+  }
+
+  .detail-disclosure[open] .detail-image-container {
+    display: block;
   }
 
   .detail-image-container img {
@@ -45,7 +76,22 @@ author_profile: true
     line-height: 1.5;
   }
 
-  /* Tabs */
+  /* Tab wrapper */
+  .pub-tabs-wrapper {
+    position: relative;
+  }
+
+  /* Visually hidden radio inputs */
+  .pub-tab-radio {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+  /* Tab buttons */
   .pub-tabs {
     display: flex;
     gap: 8px;
@@ -55,6 +101,7 @@ author_profile: true
   }
 
   .pub-tab-btn {
+    display: inline-block;
     background-color: #f6f8fa;
     border: 1px solid #d1d5da;
     border-bottom: none;
@@ -67,7 +114,7 @@ author_profile: true
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     transition: all 0.2s ease;
-    outline: none;
+    margin-bottom: -1px;
   }
 
   .pub-tab-btn:hover {
@@ -75,210 +122,189 @@ author_profile: true
     background-color: #e1e4e8;
   }
 
-  .pub-tab-btn.active {
+  /* Active tab styling */
+  #pub-tab-highlighted-radio:checked ~ .pub-tabs label[for="pub-tab-highlighted-radio"],
+  #pub-tab-all-radio:checked ~ .pub-tabs label[for="pub-tab-all-radio"] {
     background-color: #ffffff;
     color: #24292e;
     border-bottom: 2px solid #ffffff;
-    margin-bottom: -1px;
   }
 
+  /* Keyboard focus */
+  #pub-tab-highlighted-radio:focus-visible ~ .pub-tabs label[for="pub-tab-highlighted-radio"],
+  #pub-tab-all-radio:focus-visible ~ .pub-tabs label[for="pub-tab-all-radio"] {
+    outline: 2px solid #0366d6;
+    outline-offset: 2px;
+  }
+
+  /* Hide all tab contents by default */
   .pub-tab-content {
     display: none;
   }
 
-  .pub-tab-content.active {
+  /* Show selected tab content */
+  #pub-tab-highlighted-radio:checked ~ #tab-highlighted {
     display: block;
   }
+
+  #pub-tab-all-radio:checked ~ #tab-all {
+    display: block;
+  }
+
 </style>
 
-<script>
-(function () {
-
-  // Expand / Hide publication details
-  window.toggleDetail = function(id) {
-    var container = document.getElementById(id);
-    var btn = document.getElementById('btn-' + id);
-
-    if (!container || !btn) return;
-
-    if (container.style.display === "block") {
-      container.style.display = "none";
-      btn.innerText = "[Expand]";
-    } else {
-      container.style.display = "block";
-      btn.innerText = "[Hide]";
-    }
-  };
-
-  // Switch publication tabs
-  function switchTab(tabId, button) {
-    var target = document.getElementById(tabId);
-
-    if (!target) return;
-
-    // Hide all tab contents
-    document.querySelectorAll(".pub-tab-content").forEach(function(content) {
-      content.classList.remove("active");
-    });
-
-    // Deactivate all tab buttons
-    document.querySelectorAll(".pub-tab-btn").forEach(function(btn) {
-      btn.classList.remove("active");
-      btn.setAttribute("aria-selected", "false");
-    });
-
-    // Activate selected tab
-    target.classList.add("active");
-    button.classList.add("active");
-    button.setAttribute("aria-selected", "true");
-  }
-
-  // Initialize tab event listeners
-  function initTabs() {
-    document.querySelectorAll(".pub-tab-btn").forEach(function(button) {
-      button.addEventListener("click", function() {
-        var tabId = button.getAttribute("data-tab");
-        switchTab(tabId, button);
-      });
-    });
-  }
-
-  // Ensure DOM is ready
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initTabs);
-  } else {
-    initTabs();
-  }
-
-})();
-</script>
-
-
-<!-- Tab buttons -->
-<div class="pub-tabs" role="tablist">
-
-  <button
-    type="button"
-    class="pub-tab-btn active"
-    data-tab="tab-highlighted"
-    role="tab"
-    aria-controls="tab-highlighted"
-    aria-selected="true">
-    HIGHLIGHTED
-  </button>
-
-  <button
-    type="button"
-    class="pub-tab-btn"
-    data-tab="tab-all"
-    role="tab"
-    aria-controls="tab-all"
-    aria-selected="false">
-    ALL
-  </button>
-
-</div>
-
 
 <!-- ===================================================== -->
-<!-- HIGHLIGHTED TAB -->
+<!-- TAB WRAPPER -->
 <!-- ===================================================== -->
 
-<div id="tab-highlighted" class="pub-tab-content active">
+<div class="pub-tabs-wrapper">
+  <!-- Radio controls -->
+  <input
+    type="radio"
+    class="pub-tab-radio"
+    name="publication-tabs"
+    id="pub-tab-highlighted-radio"
+    checked>
 
-<h2>Theory of Game-Structured Optimization</h2>
+  <input
+    type="radio"
+    class="pub-tab-radio"
+    name="publication-tabs"
+    id="pub-tab-all-radio">
 
-My series of work provides (near-)optimal algorithms and matching lower bounds on target precision $\epsilon$ for solving game-structured optimization such as minimax and bilevel optimization.
+  <!-- Tab buttons -->
+  <div class="pub-tabs">
 
-<ol class="custom-ol">
+    <label
+      class="pub-tab-btn"
+      for="pub-tab-highlighted-radio">
+      HIGHLIGHTED
+    </label>
 
-<li>
-Second-Order Minimax Optimization
-<a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides in SIAM OP 26]</a>
+    <label
+      class="pub-tab-btn"
+      for="pub-tab-all-radio">
+      ALL
+    </label>
 
-<span class="detail-toggle" id="btn-detail-1" onclick="toggleDetail('detail-1')">[Expand]</span>
-<br>
-
-Upper Bound:
-<a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a>
-<a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a>
-<br>
-
-Lower Bound:
-<a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a>
-
-<div id="detail-1" class="detail-image-container">
-  <img src="/images/research/Minimax.jpg" alt="Second-Order Minimax Optimization Detail">
-</div>
-</li>
-
-
-<li>
-Bilevel Optimization
-<a href="https://drive.google.com/file/d/1lghkhCXdDP9IQWwBK_E_sfCjokgFlrGu/view?usp=sharing">[Slides in SIAM OP 26]</a>
-
-<span class="detail-toggle" id="btn-detail-2" onclick="toggleDetail('detail-2')">[Expand]</span>
-<br>
-
-Upper Bound:
-<a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a>
-<br>
-
-Lower Bound:
-<a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a>
-
-<div id="detail-2" class="detail-image-container">
-  <img src="/images/research/Bilevel.jpg" alt="Bilevel Optimization Detail">
-</div>
-</li>
-
-</ol>
+  </div>
 
 
-<h2>AI for Optimization</h2>
+  <!-- ===================================================== -->
+  <!-- HIGHLIGHTED TAB -->
+  <!-- ===================================================== -->
 
-I've been exploring these questions for more than one year, and I'm excited to see them fully resolved under the assistance of GPT.
+  <div id="tab-highlighted" class="pub-tab-content">
 
-<ol class="custom-ol">
+    <h2>Theory of Game-Structured Optimization</h2>
 
-<font size="3">
+    My series of work provides (near-)optimal algorithms and matching lower bounds on target precision $\epsilon$ for solving game-structured optimization such as minimax and bilevel optimization.
 
-<li>
-<p>
-Qihao Zhou <sup>1</sup>, <b>Lesi Chen <sup>1</sup></b>, Luo Luo, Chengchang Liu,
-<i>Envelope Cubic Regularized Newton Method for Nonconvex-Strongly-Concave Minimax Optimization</i>,
-arXiv preprint.
-<a href="https://arxiv.org/abs/2610.20345">[arXiv 2026]</a>
-</p>
-</li>
+    <ol class="custom-ol">
 
-<li>
-<p>
-Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu, Jingzhao Zhang,
-<i>Near-Optimal Convex Optimization with Lazy Second-Order Oracles</i>,
-arXiv preprint.
-<a href="https://arxiv.org/abs/2610.03222">[arXiv 2026]</a>
-</p>
-</li>
+      <li>
+        Second-Order Minimax Optimization
+        <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides in SIAM OP 26]</a>
 
-<li>
-<p>
-Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Linxuan Pan<sup>1</sup>, Chengchang Liu, Junchi Yang, Jingzhao Zhang,
-<i>Optimal High-Order Methods for Solving Monotone Variational Inequalities</i>,
-arXiv preprint.
-<a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a>
-</p>
-</li>
+        <details class="detail-disclosure">
+          <summary class="detail-toggle">
+            <span class="expand-label">[Expand]</span>
+            <span class="hide-label">[Hide]</span>
+          </summary>
 
-</font>
-</ol>
+          <div class="detail-image-container">
+            <img src="/images/research/Minimax.jpg" alt="Second-Order Minimax Optimization Detail">
+          </div>
+        </details>
 
-</div>
+        <br>
+
+        Upper Bound:
+        <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a>
+        <a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a>
+
+        <br>
+
+        Lower Bound:
+        <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a>
+      </li>
 
 
-<!-- ===================================================== -->
-<!-- ALL TAB -->
-<!-- ===================================================== -->
+      <li>
+        Bilevel Optimization
+        <a href="https://drive.google.com/file/d/1lghkhCXdDP9IQWwBK_E_sfCjokgFlrGu/view?usp=sharing">[Slides in SIAM OP 26]</a>
+
+        <details class="detail-disclosure">
+          <summary class="detail-toggle">
+            <span class="expand-label">[Expand]</span>
+            <span class="hide-label">[Hide]</span>
+          </summary>
+
+          <div class="detail-image-container">
+            <img src="/images/research/Bilevel.jpg" alt="Bilevel Optimization Detail">
+          </div>
+        </details>
+
+        <br>
+
+        Upper Bound:
+        <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a>
+
+        <br>
+
+        Lower Bound:
+        <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a>
+      </li>
+
+    </ol>
+
+
+    <h2>AI for Optimization</h2>
+
+    I've been exploring these questions for more than one year, and I'm excited to see them fully resolved under the assistance of GPT.
+
+    <ol class="custom-ol">
+
+      <font size="3">
+
+        <li>
+          <p>
+            Qihao Zhou <sup>1</sup>, <b>Lesi Chen <sup>1</sup></b>, Luo Luo, Chengchang Liu,
+            <i>Envelope Cubic Regularized Newton Method for Nonconvex-Strongly-Concave Minimax Optimization</i>,
+            arXiv preprint.
+            <a href="https://arxiv.org/abs/2610.20345">[arXiv 2026]</a>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu, Jingzhao Zhang,
+            <i>Near-Optimal Convex Optimization with Lazy Second-Order Oracles</i>,
+            arXiv preprint.
+            <a href="https://arxiv.org/abs/2610.03222">[arXiv 2026]</a>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Linxuan Pan<sup>1</sup>, Chengchang Liu, Junchi Yang, Jingzhao Zhang,
+            <i>Optimal High-Order Methods for Solving Monotone Variational Inequalities</i>,
+            arXiv preprint.
+            <a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a>
+          </p>
+        </li>
+
+      </font>
+
+    </ol>
+
+  </div>
+
+
+  <!-- ===================================================== -->
+  <!-- ALL TAB -->
+  <!-- ===================================================== -->
 
 <div id="tab-all" class="pub-tab-content">
 
