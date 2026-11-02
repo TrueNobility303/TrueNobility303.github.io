@@ -333,7 +333,7 @@ arXiv preprint.
 <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
 <i>Faster Newton Methods for Convex and Nonconvex Optimization in Gradient Complexity</i>,
 in Conference on Learning Theory.
-<a href="https://arxiv.org/abs/2501.17488">[COLT 2026]</a> ⭐
+<a href="https://arxiv.org/abs/2501.17488">[COLT 2026]</a> 
 </p>
 </li>
 
@@ -364,7 +364,7 @@ Journal of Machine Learning Research, 1-56.
 <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
 <i>Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ pth-Order Oracle Complexity</i>,
 in Conference on Learning Theory.
-<b>(Best Student Paper, 2/556)</b>
+<b>(Best Student Paper)</b>
 <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a>
 [Extension <a href="#extension-paper">available above</a>] ⭐
 </p>
