@@ -203,8 +203,7 @@ author_profile: true
 
     My series of work provides (near-)optimal algorithms and matching lower bounds on target precision $\epsilon$ for solving game-structured optimization such as minimax and bilevel optimization.
 
-    <ol class="custom-ol">
-
+  <ol class="custom-ol">
 <li>
   Second-Order Minimax Optimization
   <a href="https://drive.google.com/file/d/18vEccWx-tONoFAaHDexAVlu-QW2tqRO_/view?usp=sharing">[Slides in SIAM OP 26]</a>
@@ -240,7 +239,6 @@ author_profile: true
       <img src="/images/research/Bilevel.jpg" alt="Bilevel Optimization Detail">
     </div>
   </details>
-
   <div>
     Upper Bound:
     <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a>
@@ -249,26 +247,20 @@ author_profile: true
     <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a>
   </div>
 </li>
-    </ol>
-
-
+  </ol>
+    
     <h2>AI for Optimization</h2>
-
     I've been exploring these questions in second-order optimization for more than one year, and I'm excited to see them fully resolved with the assistance of GPT. <a href="https://github.com/AI4Optimization/ai-for-optimization">[Github Repo]</a>
-
-    <ol class="custom-ol">
-
-      <font size="3">
-
-        <li>
-          <p>
+  <ol class="custom-ol"><font size="3">
+<li><p>
+Xinliang Zhang <sup>1</sup>, <b>Lesi Chen <sup>1</sup></b>, Zonghan Li, Jingzhao Zhang, <i>Near-Optimal Second-Order Convex Finite-Sum Optimization under
+Individual Smoothness</i>, arXiv preprint. <a href="http://arxiv.org/abs/2610.42040">[arXiv 2026]</a>
+</p></li>
+       <li><p>
             Qihao Zhou <sup>1</sup>, <b>Lesi Chen <sup>1</sup></b>, Luo Luo, Chengchang Liu,
             <i>Envelope Cubic Regularized Newton Method for Nonconvex-Strongly-Concave Minimax Optimization</i>,
             arXiv preprint.
-            <a href="https://arxiv.org/abs/2610.20345">[arXiv 2026]</a>
-          </p>
-        </li>
-
+            <a href="https://arxiv.org/abs/2610.20345">[arXiv 2026]</a> </p> </li>
         <li>
           <p>
             Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu, Jingzhao Zhang,
@@ -277,7 +269,6 @@ author_profile: true
             <a href="https://arxiv.org/abs/2610.03222">[arXiv 2026]</a>
           </p>
         </li>
-
         <li>
           <p>
             Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Linxuan Pan<sup>1</sup>, Chengchang Liu, Junchi Yang, Jingzhao Zhang,
@@ -286,11 +277,8 @@ author_profile: true
             <a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a>
           </p>
         </li>
-
       </font>
-
     </ol>
-
   </div>
 
 
