@@ -402,6 +402,12 @@ in Conference on Neural Information Processing Systems.
 </p>
 </li>
 
+<li>
+<p> 
+<b>Lesi Chen<sup>1</sup></b>, Haishan Ye, and Luo Luo, <i> An Efficient Stochastic Algorithm for Decentralized
+Nonconvex-Strongly-Concave Minimax Optimization </i>, <a href="https://arxiv.org/abs/2212.02387">[AISTATS 2024]</a>
+</p>
+</li>
 
 <li>
 <p>
