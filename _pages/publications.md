@@ -299,12 +299,12 @@ Individual Smoothness</i>, arXiv preprint. <a href="http://arxiv.org/abs/2610.42
 <b>Lesi Chen<sup>1</sup></b>, Xinliang Zhang <sup>1</sup>, Junru Li, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
 <i>Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/(3p+1)})$ pth-Order Oracle Complexity</i>,
 arXiv preprint.
-<a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a>
+<a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a> ⭐
 <br>
-[Extension of <a href="#colt2025-paper">COLT 2025 below</a>]
+A preliminary version by a subset of the authors appeared in the Conference on Learning Theory.
+<b>(Best Student Paper)</b> <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a>
 </p>
 </li>
-
 
 <li>
 <p>
@@ -315,13 +315,20 @@ arXiv preprint.
 </p>
 </li>
 
+<li>
+<p>
+Yuxing Liu, <b>Lesi Chen</b>, and Jingzhao Zhang,
+<i>Decentralized Convex Finite-Sum Optimization with Better Dependence on Condition Numbers</i>, Journal of Machine Learning Research, 1-66, [JMLR 2026]. <br>
+A preliminary version by a subset of the authors appeared in the International Conference on Machine Learning. <a href="https://proceedings.mlr.press/v235/liu24i.html">[ICML 2024]</a>
+</p>
+</li>
+
 
 <li>
 <p>
 <b>Lesi Chen<sup>1</sup></b>, Kaiyi Ji <sup>1</sup>, and Jingzhao Zhang,
 <i>On the Condition Number Dependency in Bilevel Optimization</i>,
-arXiv preprint.
-<a href="https://arxiv.org/abs/2511.22331">[JMLR 2026]</a> ⭐
+Journal of Machine Learning Research, 1-54, <a href="https://arxiv.org/abs/2511.22331">[JMLR 2026]</a> ⭐
 </p>
 </li>
 
@@ -356,17 +363,14 @@ Journal of Machine Learning Research, 1-56.
 </p>
 </li>
 
-
-<li id="colt2025-paper">
+<!-- <li id="colt2025-paper">
 <p>
 <b>Lesi Chen</b>, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
 <i>Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/7})$ pth-Order Oracle Complexity</i>,
-in Conference on Learning Theory.
-<b>(Best Student Paper)</b>
-<a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a>
+in 
 [Extension <a href="#extension-paper">available above</a>] ⭐
 </p>
-</li>
+</li> -->
 
 
 <li>
