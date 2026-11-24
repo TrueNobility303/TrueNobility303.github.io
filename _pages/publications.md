@@ -317,7 +317,7 @@ arXiv preprint.
 
 <li>
 <p>
-Yuxing Liu, <b>Lesi Chen</b>, and Jingzhao Zhang,
+Yuxing Liu, <b>Lesi Chen</b>, and Luo Luo,
 <i>Decentralized Convex Finite-Sum Optimization with Better Dependence on Condition Numbers</i>, Journal of Machine Learning Research, 1-66, [JMLR 2026]. <br>
 A preliminary version by a subset of the authors appeared in the International Conference on Machine Learning. <a href="https://proceedings.mlr.press/v235/liu24i.html">[ICML 2024]</a>
 </p>
