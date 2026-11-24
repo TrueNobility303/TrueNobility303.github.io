@@ -244,7 +244,7 @@ author_profile: true
     <a href="https://arxiv.org/abs/2306.14853">[JMLR 2025]</a>
     <br>
     Lower Bound:
-    <a href="https://arxiv.org/abs/2511.22331">[arXiv 2025]</a>
+    <a href="https://arxiv.org/abs/2511.22331">[JMLR 2026]</a>
   </div>
 </li>
   </ol>
@@ -289,8 +289,6 @@ Individual Smoothness</i>, arXiv preprint. <a href="http://arxiv.org/abs/2610.42
 <div id="tab-all" class="pub-tab-content">
 
 
-
-
 <ol class="custom-ol">
 
 <font size="3">
@@ -323,7 +321,7 @@ arXiv preprint.
 <b>Lesi Chen<sup>1</sup></b>, Kaiyi Ji <sup>1</sup>, and Jingzhao Zhang,
 <i>On the Condition Number Dependency in Bilevel Optimization</i>,
 arXiv preprint.
-<a href="https://arxiv.org/abs/2511.22331">[arXiv 2026]</a> ⭐
+<a href="https://arxiv.org/abs/2511.22331">[JMLR 2026]</a> ⭐
 </p>
 </li>
 
