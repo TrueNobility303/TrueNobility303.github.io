@@ -23,7 +23,7 @@ title: "Teaching and Services"
 Journal Reviewer: JMLR, TPAMI.
 </p></li>
 <li><p>
-Conference Reviewer: SODA, ICLR, ICML, NeurIPS.
+Conference Reviewer: SODA, ICLR, ICML, NeurIPS, AISTATS.
 </p></li>
 </font>
 </ul>
