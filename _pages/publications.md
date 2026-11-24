@@ -253,17 +253,17 @@ author_profile: true
     I've been exploring these questions in second-order optimization for more than one year, and I'm excited to see them fully resolved with the assistance of GPT. <a href="https://github.com/AI4Optimization/ai-for-optimization">[Github Repo]</a>
   <ol class="custom-ol"><font size="3">
 <li><p>
-Xinliang Zhang <sup>1</sup>, <b>Lesi Chen <sup>1</sup></b>, Zonghan Li, Jingzhao Zhang, <i>Near-Optimal Second-Order Convex Finite-Sum Optimization under
+Xinliang Zhang<sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Zonghan Li, Jingzhao Zhang, <i>Near-Optimal Second-Order Convex Finite-Sum Optimization under
 Individual Smoothness</i>, arXiv preprint. <a href="http://arxiv.org/abs/2610.42040">[arXiv 2026]</a>
 </p></li>
        <li><p>
-            Qihao Zhou <sup>1</sup>, <b>Lesi Chen <sup>1</sup></b>, Luo Luo, Chengchang Liu,
+            Qihao Zhou<sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Luo Luo, Chengchang Liu,
             <i>Envelope Cubic Regularized Newton Method for Nonconvex-Strongly-Concave Minimax Optimization</i>,
             arXiv preprint.
             <a href="https://arxiv.org/abs/2610.20345">[arXiv 2026]</a> </p> </li>
         <li>
           <p>
-            Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu, Jingzhao Zhang,
+            Xinliang Zhang<sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Chengchang Liu, Jingzhao Zhang,
             <i>Near-Optimal Convex Optimization with Lazy Second-Order Oracles</i>,
             arXiv preprint.
             <a href="https://arxiv.org/abs/2610.03222">[arXiv 2026]</a>
@@ -271,7 +271,7 @@ Individual Smoothness</i>, arXiv preprint. <a href="http://arxiv.org/abs/2610.42
         </li>
         <li>
           <p>
-            Xinliang Zhang <sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Linxuan Pan<sup>1</sup>, Chengchang Liu, Junchi Yang, Jingzhao Zhang,
+            Xinliang Zhang<sup>1</sup>, <b>Lesi Chen<sup>1</sup></b>, Linxuan Pan<sup>1</sup>, Chengchang Liu, Junchi Yang, Jingzhao Zhang,
             <i>Optimal High-Order Methods for Solving Monotone Variational Inequalities</i>,
             arXiv preprint.
             <a href="https://arxiv.org/abs/2609.23557">[arXiv 2026]</a>
