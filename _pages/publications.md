@@ -296,7 +296,7 @@ Individual Smoothness</i>, arXiv preprint. <a href="http://arxiv.org/abs/2610.42
 <!-- Working Paper 1 -->
 <li id="extension-paper">
 <p>
-<b>Lesi Chen<sup>1</sup></b>, Xinliang Zhang <sup>1</sup>, Junru Li, Chengchang Liu, Luo Luo, and Jingzhao Zhang,
+<b>Lesi Chen<sup>1</sup></b>, Xinliang Zhang <sup>1</sup>, Chengchang Liu, Junru Li, Luo Luo, and Jingzhao Zhang,
 <i>Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(\epsilon^{-4/(3p+1)})$ pth-Order Oracle Complexity</i>,
 arXiv preprint.
 <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a> ⭐
