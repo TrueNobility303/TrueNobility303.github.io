@@ -301,7 +301,7 @@ Individual Smoothness</i>, arXiv preprint. <a href="http://arxiv.org/abs/2610.42
 arXiv preprint.
 <a href="https://arxiv.org/pdf/2604.19462">[arXiv 2026]</a> 
 <br>
-<i>Preliminary version</i>, in the Conference on Learning Theory. <b>(Best Student Paper)</b> <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> ⭐
+<i>Preliminary version</i> in the Conference on Learning Theory. <b>(Best Student Paper)</b> <a href="http://arxiv.org/abs/2506.08362">[COLT 2025]</a> ⭐
 </p>
 </li>
 
@@ -318,7 +318,7 @@ arXiv preprint.
 <p>
 Yuxing Liu, <b>Lesi Chen</b>, and Luo Luo,
 <i>Decentralized Convex Finite-Sum Optimization with Better Dependence on Condition Numbers</i>, Journal of Machine Learning Research, 1-66, [JMLR 2026] <br>
-<i>Preliminary version</i>, in International Conference on Machine Learning. <a href="https://proceedings.mlr.press/v235/liu24i.html">[ICML 2024]</a>
+<i>Preliminary version</i> in International Conference on Machine Learning. <a href="https://proceedings.mlr.press/v235/liu24i.html">[ICML 2024]</a>
 </p>
 </li>
 
